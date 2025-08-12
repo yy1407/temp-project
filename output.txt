@@ -1,0 +1,1479 @@
+==== Allocation.php ====
+allocation テーブルの 1 件のレコードは、t_order_detail テーブルの特定の 1 件のレコードに属します（外部キーは allocation 側にあります）。
+allocation テーブルの 1 件のレコードは、t_purchase_order テーブルの特定の 1 件のレコードに属します（外部キーは allocation 側にあります）。
+allocation テーブルの 1 件のレコードは、t_estimate テーブルの特定の 1 件のレコードに属します（外部キーは allocation 側にあります）。
+allocation テーブルの 1 件のレコードは、t_arrival テーブルの特定の 1 件のレコードに属します（外部キーは allocation 側にあります）。
+allocation テーブルの 1 件のレコードは、t_configuration_part_detail テーブルの特定の 1 件のレコードに属します（外部キーは allocation 側にあります）。
+allocation テーブルの 1 件のレコードは、t_shipping_detail テーブルの特定の 1 件のレコードに属します（外部キーは allocation 側にあります）。
+
+==== Cache.php ====
+
+==== CacheLock.php ====
+
+==== ConfigurationPart.php ====
+configuration_part テーブルの 1 件のレコードは、m_part テーブルの特定の 1 件のレコードに属します（外部キーは configuration_part 側にあります）。
+
+==== EmployeeDepartment.php ====
+employee_department テーブルの 1 件のレコードは、m_employee テーブルの特定の 1 件のレコードに属します（外部キーは employee_department 側にあります）。
+employee_department テーブルの 1 件のレコードは、m_department テーブルの特定の 1 件のレコードに属します（外部キーは employee_department 側にあります）。
+
+==== EmployeeMaintenanceWork.php ====
+employee_maintenance_work テーブルの 1 件のレコードは、t_maintenance_work テーブルの特定の 1 件のレコードに属します（外部キーは employee_maintenance_work 側にあります）。
+employee_maintenance_work テーブルの 1 件のレコードは、m_employee テーブルの特定の 1 件のレコードに属します（外部キーは employee_maintenance_work 側にあります）。
+employee_maintenance_work テーブルの 1 件のレコードは、m_company_car テーブルの特定の 1 件のレコードに属します（外部キーは employee_maintenance_work 側にあります）。
+
+==== HasAuthorBaseAuthenticatableModel.php ====
+不明なリレーション種別です。
+不明なリレーション種別です。
+
+==== HasAuthorBaseModel.php ====
+不明なリレーション種別です。
+不明なリレーション種別です。
+
+==== Job.php ====
+
+==== JobBatch.php ====
+
+==== LogEmail.php ====
+log_email テーブルの 1 件のレコードは、created_by_m_account_type テーブルの特定の 1 件のレコードに属します（外部キーは log_email 側にあります）。
+log_email テーブルの 1 件のレコードは、updated_by_m_account_type テーブルの特定の 1 件のレコードに属します（外部キーは log_email 側にあります）。
+
+==== LogIeyasu.php ====
+
+==== LogSmartmat.php ====
+
+==== MAccountType.php ====
+m_account_type テーブルの 1 件のレコードは、log_emails テーブルの複数のレコードを持つことができます。
+m_account_type テーブルの 1 件のレコードは、m_billing_statuses テーブルの複数のレコードを持つことができます。
+m_account_type テーブルの 1 件のレコードは、m_boxes テーブルの複数のレコードを持つことができます。
+m_account_type テーブルの 1 件のレコードは、m_car_types テーブルの複数のレコードを持つことができます。
+m_account_type テーブルの 1 件のレコードは、m_check_sheet_bases テーブルの複数のレコードを持つことができます。
+m_account_type テーブルの 1 件のレコードは、m_check_sheet_details テーブルの複数のレコードを持つことができます。
+m_account_type テーブルの 1 件のレコードは、m_companies テーブルの複数のレコードを持つことができます。
+m_account_type テーブルの 1 件のレコードは、m_company_cars テーブルの複数のレコードを持つことができます。
+m_account_type テーブルの 1 件のレコードは、m_customer_departments テーブルの複数のレコードを持つことができます。
+m_account_type テーブルの 1 件のレコードは、m_customer_field_types テーブルの複数のレコードを持つことができます。
+m_account_type テーブルの 1 件のレコードは、m_customer_people テーブルの複数のレコードを持つことができます。
+m_account_type テーブルの 1 件のレコードは、m_customers テーブルの複数のレコードを持つことができます。
+m_account_type テーブルの 1 件のレコードは、m_delivery_destinations テーブルの複数のレコードを持つことができます。
+m_account_type テーブルの 1 件のレコードは、m_fixed_value_names テーブルの複数のレコードを持つことができます。
+m_account_type テーブルの 1 件のレコードは、m_holidays テーブルの複数のレコードを持つことができます。
+m_account_type テーブルの 1 件のレコードは、m_ieyasu_settings テーブルの複数のレコードを持つことができます。
+m_account_type テーブルの 1 件のレコードは、m_industries テーブルの複数のレコードを持つことができます。
+m_account_type テーブルの 1 件のレコードは、m_liquid_types テーブルの複数のレコードを持つことができます。
+m_account_type テーブルの 1 件のレコードは、m_makers テーブルの複数のレコードを持つことができます。
+m_account_type テーブルの 1 件のレコードは、m_menus テーブルの複数のレコードを持つことができます。
+m_account_type テーブルの 1 件のレコードは、m_notices テーブルの複数のレコードを持つことができます。
+m_account_type テーブルの 1 件のレコードは、m_part_categories テーブルの複数のレコードを持つことができます。
+m_account_type テーブルの 1 件のレコードは、m_parts テーブルの複数のレコードを持つことができます。
+m_account_type テーブルの 1 件のレコードは、m_process_patterns テーブルの複数のレコードを持つことができます。
+m_account_type テーブルの 1 件のレコードは、m_processes テーブルの複数のレコードを持つことができます。
+m_account_type テーブルの 1 件のレコードは、m_production_numbers テーブルの複数のレコードを持つことができます。
+m_account_type テーブルの 1 件のレコードは、m_racks テーブルの複数のレコードを持つことができます。
+m_account_type テーブルの 1 件のレコードは、m_ships テーブルの複数のレコードを持つことができます。
+m_account_type テーブルの 1 件のレコードは、m_smartmats テーブルの複数のレコードを持つことができます。
+m_account_type テーブルの 1 件のレコードは、m_suppliers テーブルの複数のレコードを持つことができます。
+m_account_type テーブルの 1 件のレコードは、m_transport_companies テーブルの複数のレコードを持つことができます。
+m_account_type テーブルの 1 件のレコードは、t_arrivals テーブルの複数のレコードを持つことができます。
+m_account_type テーブルの 1 件のレコードは、t_billing_details テーブルの複数のレコードを持つことができます。
+m_account_type テーブルの 1 件のレコードは、t_billings テーブルの複数のレコードを持つことができます。
+m_account_type テーブルの 1 件のレコードは、t_charter_truck_estimate_details テーブルの複数のレコードを持つことができます。
+m_account_type テーブルの 1 件のレコードは、t_charter_truck_estimates テーブルの複数のレコードを持つことができます。
+m_account_type テーブルの 1 件のレコードは、t_charter_truck_request_arrangement_details テーブルの複数のレコードを持つことができます。
+m_account_type テーブルの 1 件のレコードは、t_charter_truck_request_arrangements テーブルの複数のレコードを持つことができます。
+m_account_type テーブルの 1 件のレコードは、t_charter_truck_request_groups テーブルの複数のレコードを持つことができます。
+m_account_type テーブルの 1 件のレコードは、t_charter_truck_request_transport_companies テーブルの複数のレコードを持つことができます。
+m_account_type テーブルの 1 件のレコードは、t_charter_truck_requests テーブルの複数のレコードを持つことができます。
+m_account_type テーブルの 1 件のレコードは、t_check_sheet_approval_requests テーブルの複数のレコードを持つことができます。
+m_account_type テーブルの 1 件のレコードは、t_check_sheet_record_details テーブルの複数のレコードを持つことができます。
+m_account_type テーブルの 1 件のレコードは、t_check_sheet_records テーブルの複数のレコードを持つことができます。
+m_account_type テーブルの 1 件のレコードは、t_configuration_part_details テーブルの複数のレコードを持つことができます。
+m_account_type テーブルの 1 件のレコードは、t_contract_files テーブルの複数のレコードを持つことができます。
+m_account_type テーブルの 1 件のレコードは、t_order_shippings テーブルの複数のレコードを持つことができます。
+m_account_type テーブルの 1 件のレコードは、t_contracts テーブルの複数のレコードを持つことができます。
+m_account_type テーブルの 1 件のレコードは、t_estimate_supplier_deliveries テーブルの複数のレコードを持つことができます。
+m_account_type テーブルの 1 件のレコードは、t_design_process_groups テーブルの複数のレコードを持つことができます。
+m_account_type テーブルの 1 件のレコードは、t_design_process_orders テーブルの複数のレコードを持つことができます。
+m_account_type テーブルの 1 件のレコードは、t_estimate_deliveries テーブルの複数のレコードを持つことができます。
+m_account_type テーブルの 1 件のレコードは、t_drawing_approval_request_histories テーブルの複数のレコードを持つことができます。
+m_account_type テーブルの 1 件のレコードは、t_drawing_approval_requests テーブルの複数のレコードを持つことができます。
+m_account_type テーブルの 1 件のレコードは、t_employee_schedules テーブルの複数のレコードを持つことができます。
+m_account_type テーブルの 1 件のレコードは、t_estimate_suppliers テーブルの複数のレコードを持つことができます。
+m_account_type テーブルの 1 件のレコードは、t_estimates テーブルの複数のレコードを持つことができます。
+m_account_type テーブルの 1 件のレコードは、t_in_house_productions テーブルの複数のレコードを持つことができます。
+m_account_type テーブルの 1 件のレコードは、t_inventories テーブルの複数のレコードを持つことができます。
+m_account_type テーブルの 1 件のレコードは、t_location_part_replenishment_points テーブルの複数のレコードを持つことができます。
+m_account_type テーブルの 1 件のレコードは、t_machine_returns テーブルの複数のレコードを持つことができます。
+m_account_type テーブルの 1 件のレコードは、t_maintenance_work_record_pause_times テーブルの複数のレコードを持つことができます。
+m_account_type テーブルの 1 件のレコードは、t_maintenance_work_records テーブルの複数のレコードを持つことができます。
+m_account_type テーブルの 1 件のレコードは、t_maintenance_works テーブルの複数のレコードを持つことができます。
+m_account_type テーブルの 1 件のレコードは、t_maintenances テーブルの複数のレコードを持つことができます。
+m_account_type テーブルの 1 件のレコードは、t_notices テーブルの複数のレコードを持つことができます。
+m_account_type テーブルの 1 件のレコードは、t_order_details テーブルの複数のレコードを持つことができます。
+m_account_type テーブルの 1 件のレコードは、t_order_other_items テーブルの複数のレコードを持つことができます。
+m_account_type テーブルの 1 件のレコードは、t_orders テーブルの複数のレコードを持つことができます。
+m_account_type テーブルの 1 件のレコードは、t_part_files テーブルの複数のレコードを持つことができます。
+m_account_type テーブルの 1 件のレコードは、t_picking_boxes テーブルの複数のレコードを持つことができます。
+m_account_type テーブルの 1 件のレコードは、t_pickings テーブルの複数のレコードを持つことができます。
+m_account_type テーブルの 1 件のレコードは、t_production_number_histories テーブルの複数のレコードを持つことができます。
+m_account_type テーブルの 1 件のレコードは、t_production_picking_part_records テーブルの複数のレコードを持つことができます。
+m_account_type テーブルの 1 件のレコードは、t_production_picking_parts テーブルの複数のレコードを持つことができます。
+m_account_type テーブルの 1 件のレコードは、t_production_process_change_logs テーブルの複数のレコードを持つことができます。
+m_account_type テーブルの 1 件のレコードは、t_production_process_changes テーブルの複数のレコードを持つことができます。
+m_account_type テーブルの 1 件のレコードは、t_production_process_groups テーブルの複数のレコードを持つことができます。
+m_account_type テーブルの 1 件のレコードは、t_production_process_order_group_record_pause_times テーブルの複数のレコードを持つことができます。
+m_account_type テーブルの 1 件のレコードは、t_production_process_order_group_records テーブルの複数のレコードを持つことができます。
+m_account_type テーブルの 1 件のレコードは、t_production_process_order_groups テーブルの複数のレコードを持つことができます。
+m_account_type テーブルの 1 件のレコードは、t_production_process_orders テーブルの複数のレコードを持つことができます。
+m_account_type テーブルの 1 件のレコードは、t_production_rejects テーブルの複数のレコードを持つことができます。
+m_account_type テーブルの 1 件のレコードは、t_purchase_order_details テーブルの複数のレコードを持つことができます。
+m_account_type テーブルの 1 件のレコードは、t_purchase_order_groups テーブルの複数のレコードを持つことができます。
+m_account_type テーブルの 1 件のレコードは、t_purchase_orders テーブルの複数のレコードを持つことができます。
+m_account_type テーブルの 1 件のレコードは、t_rack_part_stock_histories テーブルの複数のレコードを持つことができます。
+m_account_type テーブルの 1 件のレコードは、t_rack_part_stocks テーブルの複数のレコードを持つことができます。
+m_account_type テーブルの 1 件のレコードは、t_shipping_details テーブルの複数のレコードを持つことができます。
+m_account_type テーブルの 1 件のレコードは、t_shipping_invoice_numbers テーブルの複数のレコードを持つことができます。
+m_account_type テーブルの 1 件のレコードは、t_shipping_other_items テーブルの複数のレコードを持つことができます。
+m_account_type テーブルの 1 件のレコードは、t_shipping_picking_part_records テーブルの複数のレコードを持つことができます。
+m_account_type テーブルの 1 件のレコードは、t_shipping_picking_parts テーブルの複数のレコードを持つことができます。
+m_account_type テーブルの 1 件のレコードは、t_shippings テーブルの複数のレコードを持つことができます。
+
+==== MArrivalStatus.php ====
+m_arrival_status テーブルの 1 件のレコードは、t_arrivals テーブルの複数のレコードを持つことができます。
+
+==== MArrivalType.php ====
+m_arrival_type テーブルの 1 件のレコードは、t_arrivals テーブルの複数のレコードを持つことができます。
+
+==== MAssignedWorkType.php ====
+m_assigned_work_type テーブルの 1 件のレコードは、m_employees テーブルの複数のレコードと多対多の関係を持ちます（中間テーブルを介します）。
+
+==== MBankDepositType.php ====
+m_bank_deposit_type テーブルの 1 件のレコードは、m_our_company_settings テーブルの複数のレコードを持つことができます。
+
+==== MBillingStatus.php ====
+m_billing_status テーブルの 1 件のレコードは、created_by_m_account_type テーブルの特定の 1 件のレコードに属します（外部キーは m_billing_status 側にあります）。
+m_billing_status テーブルの 1 件のレコードは、updated_by_m_account_type テーブルの特定の 1 件のレコードに属します（外部キーは m_billing_status 側にあります）。
+m_billing_status テーブルの 1 件のレコードは、t_billing_details テーブルの複数のレコードを持つことができます。
+
+==== MBox.php ====
+m_box テーブルの 1 件のレコードは、created_by_m_account_type テーブルの特定の 1 件のレコードに属します（外部キーは m_box 側にあります）。
+m_box テーブルの 1 件のレコードは、updated_by_m_account_type テーブルの特定の 1 件のレコードに属します（外部キーは m_box 側にあります）。
+m_box テーブルの 1 件のレコードは、t_picking_boxes テーブルの複数のレコードを持つことができます。
+
+==== MCarType.php ====
+m_car_type テーブルの 1 件のレコードは、created_by_m_account_type テーブルの特定の 1 件のレコードに属します（外部キーは m_car_type 側にあります）。
+m_car_type テーブルの 1 件のレコードは、updated_by_m_account_type テーブルの特定の 1 件のレコードに属します（外部キーは m_car_type 側にあります）。
+m_car_type テーブルの 1 件のレコードは、group_m_transport_companies テーブルの複数のレコードと多対多の関係を持ちます（中間テーブルを介します）。
+m_car_type テーブルの 1 件のレコードは、group_t_charter_truck_request_groups テーブルの複数のレコードと多対多の関係を持ちます（中間テーブルを介します）。
+m_car_type テーブルの 1 件のレコードは、m_transport_companies テーブルの複数のレコードと多対多の関係を持ちます（中間テーブルを介します）。
+m_car_type テーブルの 1 件のレコードは、t_charter_truck_requests テーブルの複数のレコードと多対多の関係を持ちます（中間テーブルを介します）。
+m_car_type テーブルの 1 件のレコードは、m_delivery_destinations テーブルの複数のレコードと多対多の関係を持ちます（中間テーブルを介します）。
+m_car_type テーブルの 1 件のレコードは、t_charter_truck_estimates テーブルの複数のレコードを持つことができます。
+m_car_type テーブルの 1 件のレコードは、t_charter_truck_request_arrangements テーブルの複数のレコードを持つことができます。
+m_car_type テーブルの 1 件のレコードは、t_machine_returns テーブルの複数のレコードを持つことができます。
+
+==== MCharterTruckRequestArrangementStatus.php ====
+m_charter_truck_request_arrangement_status テーブルの 1 件のレコードは、t_charter_truck_request_arrangements テーブルの複数のレコードを持つことができます。
+
+==== MCharterTruckRequestEntryStatus.php ====
+m_charter_truck_request_entry_status テーブルの 1 件のレコードは、t_charter_truck_request_transport_companies テーブルの複数のレコードを持つことができます。
+
+==== MCharterTruckRequestOrderStatus.php ====
+m_charter_truck_request_order_status テーブルの 1 件のレコードは、t_charter_truck_request_transport_companies テーブルの複数のレコードを持つことができます。
+
+==== MCharterTruckRequestStatus.php ====
+m_charter_truck_request_status テーブルの 1 件のレコードは、t_charter_truck_request_groups テーブルの複数のレコードを持つことができます。
+
+==== MCheckSheetApprovalRequestStatus.php ====
+m_check_sheet_approval_request_status テーブルの 1 件のレコードは、t_check_sheet_approval_requests テーブルの複数のレコードを持つことができます。
+
+==== MCheckSheetBase.php ====
+m_check_sheet_base テーブルの 1 件のレコードは、m_process テーブルの特定の 1 件のレコードに属します（外部キーは m_check_sheet_base 側にあります）。
+m_check_sheet_base テーブルの 1 件のレコードは、created_by_m_account_type テーブルの特定の 1 件のレコードに属します（外部キーは m_check_sheet_base 側にあります）。
+m_check_sheet_base テーブルの 1 件のレコードは、updated_by_m_account_type テーブルの特定の 1 件のレコードに属します（外部キーは m_check_sheet_base 側にあります）。
+m_check_sheet_base テーブルの 1 件のレコードは、m_check_sheet_details テーブルの複数のレコードを持つことができます。
+m_check_sheet_base テーブルの 1 件のレコードは、m_employee テーブルの特定の 1 件のレコードに属します（外部キーは m_check_sheet_base 側にあります）。
+
+==== MCheckSheetDetail.php ====
+m_check_sheet_detail テーブルの 1 件のレコードは、m_check_sheet_base テーブルの特定の 1 件のレコードに属します（外部キーは m_check_sheet_detail 側にあります）。
+m_check_sheet_detail テーブルの 1 件のレコードは、m_check_sheet_detail_type テーブルの特定の 1 件のレコードに属します（外部キーは m_check_sheet_detail 側にあります）。
+m_check_sheet_detail テーブルの 1 件のレコードは、created_by_m_account_type テーブルの特定の 1 件のレコードに属します（外部キーは m_check_sheet_detail 側にあります）。
+m_check_sheet_detail テーブルの 1 件のレコードは、updated_by_m_account_type テーブルの特定の 1 件のレコードに属します（外部キーは m_check_sheet_detail 側にあります）。
+m_check_sheet_detail テーブルの 1 件のレコードは、t_check_sheet_record_details テーブルの複数のレコードを持つことができます。
+
+==== MCheckSheetDetailType.php ====
+m_check_sheet_detail_type テーブルの 1 件のレコードは、m_check_sheet_details テーブルの複数のレコードを持つことができます。
+m_check_sheet_detail_type テーブルの 1 件のレコードは、t_check_sheet_record_details テーブルの複数のレコードを持つことができます。
+
+==== MCheckSheetStatus.php ====
+m_check_sheet_status テーブルの 1 件のレコードは、t_check_sheet_records テーブルの複数のレコードを持つことができます。
+
+==== MCompany.php ====
+m_company テーブルの 1 件のレコードは、created_by_m_account_type テーブルの特定の 1 件のレコードに属します（外部キーは m_company 側にあります）。
+m_company テーブルの 1 件のレコードは、updated_by_m_account_type テーブルの特定の 1 件のレコードに属します（外部キーは m_company 側にあります）。
+m_company テーブルの 1 件のレコードは、m_customers テーブルの複数のレコードを持つことができます。
+
+==== MCompanyCar.php ====
+m_company_car テーブルの 1 件のレコードは、created_by_m_account_type テーブルの特定の 1 件のレコードに属します（外部キーは m_company_car 側にあります）。
+m_company_car テーブルの 1 件のレコードは、updated_by_m_account_type テーブルの特定の 1 件のレコードに属します（外部キーは m_company_car 側にあります）。
+m_company_car テーブルの 1 件のレコードは、t_maintenance_works テーブルの複数のレコードと多対多の関係を持ちます（中間テーブルを介します）。
+m_company_car テーブルの 1 件のレコードは、m_employees テーブルの複数のレコードと多対多の関係を持ちます（中間テーブルを介します）。
+m_company_car テーブルの 1 件のレコードは、m_employee テーブルの特定の 1 件のレコードに属します（外部キーは m_company_car 側にあります）。
+
+==== MContractUpdateDivision.php ====
+m_contract_update_division テーブルの 1 件のレコードは、t_billings テーブルの複数のレコードを持つことができます。
+
+==== MCustomer.php ====
+m_customer テーブルの 1 件のレコードは、m_month_type テーブルの特定の 1 件のレコードに属します（外部キーは m_customer 側にあります）。
+m_customer テーブルの 1 件のレコードは、m_company テーブルの特定の 1 件のレコードに属します（外部キーは m_customer 側にあります）。
+m_customer テーブルの 1 件のレコードは、m_honorific テーブルの特定の 1 件のレコードに属します（外部キーは m_customer 側にあります）。
+m_customer テーブルの 1 件のレコードは、m_prefecture テーブルの特定の 1 件のレコードに属します（外部キーは m_customer 側にあります）。
+m_customer テーブルの 1 件のレコードは、m_transport_company テーブルの特定の 1 件のレコードに属します（外部キーは m_customer 側にあります）。
+m_customer テーブルの 1 件のレコードは、m_tax_type テーブルの特定の 1 件のレコードに属します（外部キーは m_customer 側にあります）。
+m_customer テーブルの 1 件のレコードは、created_by_m_account_type テーブルの特定の 1 件のレコードに属します（外部キーは m_customer 側にあります）。
+m_customer テーブルの 1 件のレコードは、updated_by_m_account_type テーブルの特定の 1 件のレコードに属します（外部キーは m_customer 側にあります）。
+m_customer テーブルの 1 件のレコードは、m_customer_department テーブルの複数のレコードを持つことができます。
+m_customer テーブルの 1 件のレコードは、m_customer_persons テーブルの複数のレコードと多対多の関係を持ちます（中間テーブルを介します）。
+m_customer テーブルの 1 件のレコードは、m_customer_types テーブルの複数のレコードと多対多の関係を持ちます（中間テーブルを介します）。
+m_customer テーブルの 1 件のレコードは、m_delivery_destinations テーブルの複数のレコードを持つことができます。
+m_customer テーブルの 1 件のレコードは、m_ships テーブルの複数のレコードを持つことができます。
+m_customer テーブルの 1 件のレコードは、m_industries テーブルの複数のレコードと多対多の関係を持ちます（中間テーブルを介します）。
+m_customer テーブルの 1 件のレコードは、m_invoice_send_method テーブルの特定の 1 件のレコードに属します（外部キーは m_customer 側にあります）。
+m_customer テーブルの 1 件のレコードは、m_customer_banks テーブルの複数のレコードを持つことができます。
+m_customer テーブルの 1 件のレコードは、m_external_accounts テーブルの複数のレコードと多対多の関係を持ちます（中間テーブルを介します）。
+m_customer テーブルの 1 件のレコードは、invoice_send_prefecture テーブルの特定の 1 件のレコードに属します（外部キーは m_customer 側にあります）。
+m_customer テーブルの 1 件のレコードは、under_transfer_due_month テーブルの特定の 1 件のレコードに属します（外部キーは m_customer 側にあります）。
+m_customer テーブルの 1 件のレコードは、over_transfer_due_month テーブルの特定の 1 件のレコードに属します（外部キーは m_customer 側にあります）。
+m_customer テーブルの 1 件のレコードは、ship_owner_contracts テーブルの複数のレコードを持つことができます。
+m_customer テーブルの 1 件のレコードは、engine_maker_contracts テーブルの複数のレコードを持つことができます。
+m_customer テーブルの 1 件のレコードは、end_user_contracts テーブルの複数のレコードを持つことができます。
+m_customer テーブルの 1 件のレコードは、assigned_m_customer_persons テーブルの複数のレコードと多対多の関係を持ちます（中間テーブルを介します）。
+m_customer テーブルの 1 件のレコードは、field_m_customer_persons テーブルの複数のレコードと多対多の関係を持ちます（中間テーブルを介します）。
+m_customer テーブルの 1 件のレコードは、invoice_to_m_customer_persons テーブルの複数のレコードと多対多の関係を持ちます（中間テーブルを介します）。
+
+==== MCustomerBank.php ====
+m_customer_bank テーブルの 1 件のレコードは、m_customer テーブルの特定の 1 件のレコードに属します（外部キーは m_customer_bank 側にあります）。
+m_customer_bank テーブルの 1 件のレコードは、m_bank_deposit_type テーブルの特定の 1 件のレコードに属します（外部キーは m_customer_bank 側にあります）。
+m_customer_bank テーブルの 1 件のレコードは、created_by_m_account_type テーブルの特定の 1 件のレコードに属します（外部キーは m_customer_bank 側にあります）。
+m_customer_bank テーブルの 1 件のレコードは、updated_by_m_account_type テーブルの特定の 1 件のレコードに属します（外部キーは m_customer_bank 側にあります）。
+
+==== MCustomerDepartment.php ====
+m_customer_department テーブルの 1 件のレコードは、m_customer テーブルの特定の 1 件のレコードに属します（外部キーは m_customer_department 側にあります）。
+m_customer_department テーブルの 1 件のレコードは、m_customer_field_type テーブルの特定の 1 件のレコードに属します（外部キーは m_customer_department 側にあります）。
+m_customer_department テーブルの 1 件のレコードは、created_by_m_account_type テーブルの特定の 1 件のレコードに属します（外部キーは m_customer_department 側にあります）。
+m_customer_department テーブルの 1 件のレコードは、updated_by_m_account_type テーブルの特定の 1 件のレコードに属します（外部キーは m_customer_department 側にあります）。
+m_customer_department テーブルの 1 件のレコードは、m_customers テーブルの複数のレコードと多対多の関係を持ちます（中間テーブルを介します）。
+m_customer_department テーブルの 1 件のレコードは、m_customer_people テーブルの複数のレコードを持つことができます。
+
+==== MCustomerFieldType.php ====
+m_customer_field_type テーブルの 1 件のレコードは、created_by_m_account_type テーブルの特定の 1 件のレコードに属します（外部キーは m_customer_field_type 側にあります）。
+m_customer_field_type テーブルの 1 件のレコードは、updated_by_m_account_type テーブルの特定の 1 件のレコードに属します（外部キーは m_customer_field_type 側にあります）。
+m_customer_field_type テーブルの 1 件のレコードは、m_customer_departments テーブルの複数のレコードを持つことができます。
+
+==== MCustomerPerson.php ====
+m_customer_person テーブルの 1 件のレコードは、m_customer_department テーブルの特定の 1 件のレコードに属します（外部キーは m_customer_person 側にあります）。
+m_customer_person テーブルの 1 件のレコードは、created_by_m_account_type テーブルの特定の 1 件のレコードに属します（外部キーは m_customer_person 側にあります）。
+m_customer_person テーブルの 1 件のレコードは、updated_by_m_account_type テーブルの特定の 1 件のレコードに属します（外部キーは m_customer_person 側にあります）。
+m_customer_person テーブルの 1 件のレコードは、m_customers テーブルの複数のレコードと多対多の関係を持ちます（中間テーブルを介します）。
+m_customer_person テーブルの 1 件のレコードは、t_orders テーブルの複数のレコードと多対多の関係を持ちます（中間テーブルを介します）。
+
+==== MCustomerType.php ====
+m_customer_type テーブルの 1 件のレコードは、m_customers テーブルの複数のレコードと多対多の関係を持ちます（中間テーブルを介します）。
+m_customer_type テーブルの 1 件のレコードは、t_billings テーブルの複数のレコードを持つことができます。
+m_customer_type テーブルの 1 件のレコードは、t_orders テーブルの複数のレコードを持つことができます。
+
+==== MDeliveryDay.php ====
+m_delivery_day テーブルの 1 件のレコードは、m_location テーブルの特定の 1 件のレコードに属します（外部キーは m_delivery_day 側にあります）。
+m_delivery_day テーブルの 1 件のレコードは、m_prefecture テーブルの特定の 1 件のレコードに属します（外部キーは m_delivery_day 側にあります）。
+m_delivery_day テーブルの 1 件のレコードは、created_by_m_account_type テーブルの特定の 1 件のレコードに属します（外部キーは m_delivery_day 側にあります）。
+m_delivery_day テーブルの 1 件のレコードは、updated_by_m_account_type テーブルの特定の 1 件のレコードに属します（外部キーは m_delivery_day 側にあります）。
+
+==== MDeliveryDestination.php ====
+m_delivery_destination テーブルの 1 件のレコードは、m_delivery_destination_type テーブルの特定の 1 件のレコードに属します（外部キーは m_delivery_destination 側にあります）。
+m_delivery_destination テーブルの 1 件のレコードは、m_location テーブルの特定の 1 件のレコードに属します（外部キーは m_delivery_destination 側にあります）。
+m_delivery_destination テーブルの 1 件のレコードは、m_customer テーブルの特定の 1 件のレコードに属します（外部キーは m_delivery_destination 側にあります）。
+m_delivery_destination テーブルの 1 件のレコードは、m_honorific テーブルの特定の 1 件のレコードに属します（外部キーは m_delivery_destination 側にあります）。
+m_delivery_destination テーブルの 1 件のレコードは、m_prefecture テーブルの特定の 1 件のレコードに属します（外部キーは m_delivery_destination 側にあります）。
+m_delivery_destination テーブルの 1 件のレコードは、m_transport_company テーブルの特定の 1 件のレコードに属します（外部キーは m_delivery_destination 側にあります）。
+m_delivery_destination テーブルの 1 件のレコードは、created_by_m_account_type テーブルの特定の 1 件のレコードに属します（外部キーは m_delivery_destination 側にあります）。
+m_delivery_destination テーブルの 1 件のレコードは、updated_by_m_account_type テーブルの特定の 1 件のレコードに属します（外部キーは m_delivery_destination 側にあります）。
+m_delivery_destination テーブルの 1 件のレコードは、m_car_types テーブルの複数のレコードと多対多の関係を持ちます（中間テーブルを介します）。
+m_delivery_destination テーブルの 1 件のレコードは、t_arrivals テーブルの複数のレコードを持つことができます。
+m_delivery_destination テーブルの 1 件のレコードは、t_estimates テーブルの複数のレコードを持つことができます。
+m_delivery_destination テーブルの 1 件のレコードは、t_order_details テーブルの複数のレコードを持つことができます。
+m_delivery_destination テーブルの 1 件のレコードは、t_orders テーブルの複数のレコードを持つことができます。
+m_delivery_destination テーブルの 1 件のレコードは、t_shippings テーブルの複数のレコードを持つことができます。
+m_delivery_destination テーブルの 1 件のレコードは、ship_from_t_shippings テーブルの複数のレコードを持つことができます。
+
+==== MDeliveryDestinationType.php ====
+m_delivery_destination_type テーブルの 1 件のレコードは、m_delivery_destinations テーブルの複数のレコードを持つことができます。
+m_delivery_destination_type テーブルの 1 件のレコードは、t_shippings テーブルの複数のレコードを持つことができます。
+
+==== MDeliveryMethod.php ====
+m_delivery_method テーブルの 1 件のレコードは、t_estimates テーブルの複数のレコードを持つことができます。
+m_delivery_method テーブルの 1 件のレコードは、t_purchase_order_details テーブルの複数のレコードを持つことができます。
+
+==== MDeliverySpecificTime.php ====
+m_delivery_specific_time テーブルの 1 件のレコードは、m_transport_company テーブルの特定の 1 件のレコードに属します（外部キーは m_delivery_specific_time 側にあります）。
+m_delivery_specific_time テーブルの 1 件のレコードは、t_order_shippings テーブルの複数のレコードを持つことができます。
+
+==== MDepartment.php ====
+m_department テーブルの 1 件のレコードは、m_location テーブルの特定の 1 件のレコードに属します（外部キーは m_department 側にあります）。
+m_department テーブルの 1 件のレコードは、m_department_type テーブルの特定の 1 件のレコードに属します（外部キーは m_department 側にあります）。
+m_department テーブルの 1 件のレコードは、m_employees テーブルの複数のレコードと多対多の関係を持ちます（中間テーブルを介します）。
+m_department テーブルの 1 件のレコードは、created_by_m_account_type テーブルの特定の 1 件のレコードに属します（外部キーは m_department 側にあります）。
+m_department テーブルの 1 件のレコードは、updated_by_m_account_type テーブルの特定の 1 件のレコードに属します（外部キーは m_department 側にあります）。
+
+==== MDepartmentType.php ====
+m_department_type テーブルの 1 件のレコードは、m_departments テーブルの複数のレコードを持つことができます。
+
+==== MDesignProcessGroupDrawingApprovalStatus.php ====
+
+==== MDesignProcessOrderStatus.php ====
+m_design_process_order_status テーブルの 1 件のレコードは、t_design_process_orders テーブルの複数のレコードを持つことができます。
+
+==== MDrawingApprovalStatus.php ====
+m_drawing_approval_status テーブルの 1 件のレコードは、t_drawing_approval_request_histories テーブルの複数のレコードを持つことができます。
+m_drawing_approval_status テーブルの 1 件のレコードは、t_drawing_approval_requests テーブルの複数のレコードを持つことができます。
+
+==== MEmployee.php ====
+m_employee テーブルの 1 件のレコードは、m_group テーブルの特定の 1 件のレコードに属します（外部キーは m_employee 側にあります）。
+m_employee テーブルの 1 件のレコードは、m_printer テーブルの特定の 1 件のレコードに属します（外部キーは m_employee 側にあります）。
+m_employee テーブルの 1 件のレコードは、m_assigned_work_types テーブルの複数のレコードと多対多の関係を持ちます（中間テーブルを介します）。
+m_employee テーブルの 1 件のレコードは、m_departments テーブルの複数のレコードと多対多の関係を持ちます（中間テーブルを介します）。
+m_employee テーブルの 1 件のレコードは、m_features テーブルの複数のレコードと多対多の関係を持ちます（中間テーブルを介します）。
+m_employee テーブルの 1 件のレコードは、m_privilege_types テーブルの複数のレコードと多対多の関係を持ちます（中間テーブルを介します）。
+m_employee テーブルの 1 件のレコードは、t_design_process_orders テーブルの複数のレコードと多対多の関係を持ちます（中間テーブルを介します）。
+m_employee テーブルの 1 件のレコードは、t_employee_schedules テーブルの複数のレコードと多対多の関係を持ちます（中間テーブルを介します）。
+m_employee テーブルの 1 件のレコードは、t_maintenances テーブルの複数のレコードと多対多の関係を持ちます（中間テーブルを介します）。
+m_employee テーブルの 1 件のレコードは、t_maintenance_works テーブルの複数のレコードと多対多の関係を持ちます（中間テーブルを介します）。
+m_employee テーブルの 1 件のレコードは、m_company_cars テーブルの複数のレコードと多対多の関係を持ちます（中間テーブルを介します）。
+m_employee テーブルの 1 件のレコードは、t_maintenance_work_records テーブルの複数のレコードと多対多の関係を持ちます（中間テーブルを介します）。
+m_employee テーブルの 1 件のレコードは、t_notices テーブルの複数のレコードと多対多の関係を持ちます（中間テーブルを介します）。
+m_employee テーブルの 1 件のレコードは、t_production_process_orders テーブルの複数のレコードと多対多の関係を持ちます（中間テーブルを介します）。
+m_employee テーブルの 1 件のレコードは、approved_production_orders テーブルの複数のレコードを持つことができます。
+m_employee テーブルの 1 件のレコードは、t_purchase_orders テーブルの複数のレコードを持つことができます。
+m_employee テーブルの 1 件のレコードは、t_purchase_order_details テーブルの複数のレコードを持つことができます。
+m_employee テーブルの 1 件のレコードは、t_pickings テーブルの複数のレコードを持つことができます。
+m_employee テーブルの 1 件のレコードは、t_orders テーブルの複数のレコードを持つことができます。
+m_employee テーブルの 1 件のレコードは、t_estimates テーブルの複数のレコードを持つことができます。
+m_employee テーブルの 1 件のレコードは、t_contracts テーブルの複数のレコードを持つことができます。
+m_employee テーブルの 1 件のレコードは、m_our_company_settings テーブルの複数のレコードを持つことができます。
+m_employee テーブルの 1 件のレコードは、m_ieyasu_settings テーブルの複数のレコードを持つことができます。
+m_employee テーブルの 1 件のレコードは、m_check_sheet_bases テーブルの複数のレコードを持つことができます。
+m_employee テーブルの 1 件のレコードは、created_by_m_account_type テーブルの特定の 1 件のレコードに属します（外部キーは m_employee 側にあります）。
+m_employee テーブルの 1 件のレコードは、updated_by_m_account_type テーブルの特定の 1 件のレコードに属します（外部キーは m_employee 側にあります）。
+
+==== MEquipment.php ====
+m_equipment テーブルの 1 件のレコードは、t_contracts テーブルの複数のレコードを持つことができます。
+m_equipment テーブルの 1 件のレコードは、created_by_m_account_type テーブルの特定の 1 件のレコードに属します（外部キーは m_equipment 側にあります）。
+m_equipment テーブルの 1 件のレコードは、updated_by_m_account_type テーブルの特定の 1 件のレコードに属します（外部キーは m_equipment 側にあります）。
+
+==== MEstimateRequestStatus.php ====
+
+==== MEstimateStatus.php ====
+m_estimate_status テーブルの 1 件のレコードは、t_estimates テーブルの複数のレコードを持つことができます。
+
+==== MExternalAccount.php ====
+m_external_account テーブルの 1 件のレコードは、m_external_division テーブルの特定の 1 件のレコードに属します（外部キーは m_external_account 側にあります）。
+m_external_account テーブルの 1 件のレコードは、m_transport_companies テーブルの複数のレコードと多対多の関係を持ちます（中間テーブルを介します）。
+m_external_account テーブルの 1 件のレコードは、m_customers テーブルの複数のレコードと多対多の関係を持ちます（中間テーブルを介します）。
+m_external_account テーブルの 1 件のレコードは、m_suppliers テーブルの複数のレコードと多対多の関係を持ちます（中間テーブルを介します）。
+m_external_account テーブルの 1 件のレコードは、t_external_account_records テーブルの複数のレコードを持つことができます。
+m_external_account テーブルの 1 件のレコードは、created_by_m_account_type テーブルの特定の 1 件のレコードに属します（外部キーは m_external_account 側にあります）。
+m_external_account テーブルの 1 件のレコードは、updated_by_m_account_type テーブルの特定の 1 件のレコードに属します（外部キーは m_external_account 側にあります）。
+
+==== MExternalAccountStatus.php ====
+m_external_account_status テーブルの 1 件のレコードは、m_external_accounts テーブルの複数のレコードを持つことができます。
+
+==== MExternalDivision.php ====
+m_external_division テーブルの 1 件のレコードは、m_external_accounts テーブルの複数のレコードを持つことができます。
+
+==== MFactoryCategory.php ====
+m_factory_category テーブルの 1 件のレコードは、created_by_m_account_type テーブルの特定の 1 件のレコードに属します（外部キーは m_factory_category 側にあります）。
+m_factory_category テーブルの 1 件のレコードは、updated_by_m_account_type テーブルの特定の 1 件のレコードに属します（外部キーは m_factory_category 側にあります）。
+m_factory_category テーブルの 1 件のレコードは、t_contracts テーブルの複数のレコードを持つことができます。
+
+==== MFeature.php ====
+m_feature テーブルの 1 件のレコードは、m_employees テーブルの複数のレコードと多対多の関係を持ちます（中間テーブルを介します）。
+m_feature テーブルの 1 件のレコードは、employee_m_privilege_types テーブルの複数のレコードと多対多の関係を持ちます（中間テーブルを介します）。
+m_feature テーブルの 1 件のレコードは、m_privilege_types テーブルの複数のレコードと多対多の関係を持ちます（中間テーブルを介します）。
+
+==== MFixedValueCategory.php ====
+m_fixed_value_category テーブルの 1 件のレコードは、m_fixed_value_names テーブルの複数のレコードを持つことができます。
+
+==== MFixedValueName.php ====
+m_fixed_value_name テーブルの 1 件のレコードは、m_fixed_value_category テーブルの特定の 1 件のレコードに属します（外部キーは m_fixed_value_name 側にあります）。
+m_fixed_value_name テーブルの 1 件のレコードは、created_by_m_account_type テーブルの特定の 1 件のレコードに属します（外部キーは m_fixed_value_name 側にあります）。
+m_fixed_value_name テーブルの 1 件のレコードは、updated_by_m_account_type テーブルの特定の 1 件のレコードに属します（外部キーは m_fixed_value_name 側にあります）。
+
+==== MGroup.php ====
+m_group テーブルの 1 件のレコードは、m_notices テーブルの複数のレコードと多対多の関係を持ちます（中間テーブルを介します）。
+m_group テーブルの 1 件のレコードは、m_employees テーブルの複数のレコードを持つことができます。
+m_group テーブルの 1 件のレコードは、m_process_type テーブルの特定の 1 件のレコードに属します（外部キーは m_group 側にあります）。
+
+==== MHoliday.php ====
+m_holiday テーブルの 1 件のレコードは、created_by_m_account_type テーブルの特定の 1 件のレコードに属します（外部キーは m_holiday 側にあります）。
+m_holiday テーブルの 1 件のレコードは、updated_by_m_account_type テーブルの特定の 1 件のレコードに属します（外部キーは m_holiday 側にあります）。
+
+==== MHonorific.php ====
+m_honorific テーブルの 1 件のレコードは、m_customers テーブルの複数のレコードを持つことができます。
+m_honorific テーブルの 1 件のレコードは、m_delivery_destinations テーブルの複数のレコードを持つことができます。
+
+==== MIeyasuSetting.php ====
+m_ieyasu_setting テーブルの 1 件のレコードは、m_employee テーブルの特定の 1 件のレコードに属します（外部キーは m_ieyasu_setting 側にあります）。
+m_ieyasu_setting テーブルの 1 件のレコードは、created_by_m_account_type テーブルの特定の 1 件のレコードに属します（外部キーは m_ieyasu_setting 側にあります）。
+m_ieyasu_setting テーブルの 1 件のレコードは、updated_by_m_account_type テーブルの特定の 1 件のレコードに属します（外部キーは m_ieyasu_setting 側にあります）。
+
+==== MInHouseProductionStatus.php ====
+m_in_house_production_status テーブルの 1 件のレコードは、t_in_house_productions テーブルの複数のレコードを持つことができます。
+
+==== MInHouseProductionWorkStatus.php ====
+
+==== MIndustry.php ====
+m_industry テーブルの 1 件のレコードは、created_by_m_account_type テーブルの特定の 1 件のレコードに属します（外部キーは m_industry 側にあります）。
+m_industry テーブルの 1 件のレコードは、updated_by_m_account_type テーブルの特定の 1 件のレコードに属します（外部キーは m_industry 側にあります）。
+m_industry テーブルの 1 件のレコードは、m_customers テーブルの複数のレコードと多対多の関係を持ちます（中間テーブルを介します）。
+
+==== MInstructionWork.php ====
+m_instruction_work テーブルの 1 件のレコードは、t_in_house_productions テーブルの複数のレコードを持つことができます。
+
+==== MInvoiceSendMethod.php ====
+m_invoice_send_method テーブルの 1 件のレコードは、t_billings テーブルの複数のレコードを持つことができます。
+
+==== MLiquidType.php ====
+m_liquid_type テーブルの 1 件のレコードは、created_by_m_account_type テーブルの特定の 1 件のレコードに属します（外部キーは m_liquid_type 側にあります）。
+m_liquid_type テーブルの 1 件のレコードは、updated_by_m_account_type テーブルの特定の 1 件のレコードに属します（外部キーは m_liquid_type 側にあります）。
+m_liquid_type テーブルの 1 件のレコードは、t_contracts テーブルの複数のレコードを持つことができます。
+
+==== MLocation.php ====
+m_location テーブルの 1 件のレコードは、m_location_type テーブルの特定の 1 件のレコードに属します（外部キーは m_location 側にあります）。
+m_location テーブルの 1 件のレコードは、m_customers テーブルの複数のレコードを持つことができます。
+m_location テーブルの 1 件のレコードは、m_delivery_destinations テーブルの複数のレコードを持つことができます。
+m_location テーブルの 1 件のレコードは、m_departments テーブルの複数のレコードを持つことができます。
+m_location テーブルの 1 件のレコードは、m_production_numbers テーブルの複数のレコードを持つことができます。
+m_location テーブルの 1 件のレコードは、m_racks テーブルの複数のレコードを持つことができます。
+m_location テーブルの 1 件のレコードは、m_smartmats テーブルの複数のレコードを持つことができます。
+m_location テーブルの 1 件のレコードは、t_arrivals テーブルの複数のレコードを持つことができます。
+m_location テーブルの 1 件のレコードは、t_contracts テーブルの複数のレコードを持つことができます。
+m_location テーブルの 1 件のレコードは、t_location_part_replenishment_points テーブルの複数のレコードを持つことができます。
+m_location テーブルの 1 件のレコードは、t_machine_returns テーブルの複数のレコードを持つことができます。
+m_location テーブルの 1 件のレコードは、t_orders テーブルの複数のレコードを持つことができます。
+m_location テーブルの 1 件のレコードは、t_pickings テーブルの複数のレコードを持つことができます。
+m_location テーブルの 1 件のレコードは、m_prefecture テーブルの特定の 1 件のレコードに属します（外部キーは m_location 側にあります）。
+m_location テーブルの 1 件のレコードは、m_honorific テーブルの特定の 1 件のレコードに属します（外部キーは m_location 側にあります）。
+m_location テーブルの 1 件のレコードは、m_bank_deposit_type テーブルの特定の 1 件のレコードに属します（外部キーは m_location 側にあります）。
+
+==== MLocationType.php ====
+m_location_type テーブルの 1 件のレコードは、m_locations テーブルの複数のレコードを持つことができます。
+
+==== MMachineMaintenanceStatus.php ====
+m_machine_maintenance_status テーブルの 1 件のレコードは、m_production_numbers テーブルの複数のレコードを持つことができます。
+
+==== MMachineStatus.php ====
+m_machine_status テーブルの 1 件のレコードは、m_production_numbers テーブルの複数のレコードを持つことができます。
+
+==== MMaintenanceType.php ====
+m_maintenance_type テーブルの 1 件のレコードは、t_maintenances テーブルの複数のレコードを持つことができます。
+m_maintenance_type テーブルの 1 件のレコードは、t_maintenance_works テーブルの複数のレコードを持つことができます。
+
+==== MMaintenanceWorkStatus.php ====
+m_maintenance_work_status テーブルの 1 件のレコードは、t_maintenance_works テーブルの複数のレコードを持つことができます。
+
+==== MMaker.php ====
+m_maker テーブルの 1 件のレコードは、created_by_m_account_type テーブルの特定の 1 件のレコードに属します（外部キーは m_maker 側にあります）。
+m_maker テーブルの 1 件のレコードは、updated_by_m_account_type テーブルの特定の 1 件のレコードに属します（外部キーは m_maker 側にあります）。
+m_maker テーブルの 1 件のレコードは、m_parts テーブルの複数のレコードを持つことができます。
+
+==== MMenu.php ====
+m_menu テーブルの 1 件のレコードは、created_by_m_account_type テーブルの特定の 1 件のレコードに属します（外部キーは m_menu 側にあります）。
+m_menu テーブルの 1 件のレコードは、updated_by_m_account_type テーブルの特定の 1 件のレコードに属します（外部キーは m_menu 側にあります）。
+
+==== MMonthRangeType.php ====
+
+==== MMonthType.php ====
+
+==== MNotice.php ====
+m_notice テーブルの 1 件のレコードは、m_notice_type テーブルの特定の 1 件のレコードに属します（外部キーは m_notice 側にあります）。
+m_notice テーブルの 1 件のレコードは、m_notice_level テーブルの特定の 1 件のレコードに属します（外部キーは m_notice 側にあります）。
+m_notice テーブルの 1 件のレコードは、created_by_m_account_type テーブルの特定の 1 件のレコードに属します（外部キーは m_notice 側にあります）。
+m_notice テーブルの 1 件のレコードは、updated_by_m_account_type テーブルの特定の 1 件のレコードに属します（外部キーは m_notice 側にあります）。
+m_notice テーブルの 1 件のレコードは、m_groups テーブルの複数のレコードと多対多の関係を持ちます（中間テーブルを介します）。
+
+==== MNoticeLevel.php ====
+m_notice_level テーブルの 1 件のレコードは、m_notices テーブルの複数のレコードを持つことができます。
+
+==== MNoticeType.php ====
+m_notice_type テーブルの 1 件のレコードは、m_notices テーブルの複数のレコードを持つことができます。
+
+==== MNumbering.php ====
+m_numbering テーブルの 1 件のレコードは、m_numbering_type テーブルの特定の 1 件のレコードに属します（外部キーは m_numbering 側にあります）。
+
+==== MNumberingType.php ====
+m_numbering_type テーブルの 1 件のレコードは、m_numbering テーブルの 1 件のレコードを持ちます。
+
+==== MOrderStatus.php ====
+m_order_status テーブルの 1 件のレコードは、t_orders テーブルの複数のレコードを持つことができます。
+
+==== MOurCompanySetting.php ====
+m_our_company_setting テーブルの 1 件のレコードは、m_bank_deposit_type テーブルの特定の 1 件のレコードに属します（外部キーは m_our_company_setting 側にあります）。
+m_our_company_setting テーブルの 1 件のレコードは、m_employee テーブルの特定の 1 件のレコードに属します（外部キーは m_our_company_setting 側にあります）。
+
+==== MOverhaulType.php ====
+m_overhaul_type テーブルの 1 件のレコードは、t_order_other_items テーブルの複数のレコードを持つことができます。
+
+==== MPage.php ====
+m_page テーブルの 1 件のレコードは、m_work_type テーブルの特定の 1 件のレコードに属します（外部キーは m_page 側にあります）。
+
+==== MPart.php ====
+m_part テーブルの 1 件のレコードは、m_part_category_1 テーブルの特定の 1 件のレコードに属します（外部キーは m_part 側にあります）。
+m_part テーブルの 1 件のレコードは、m_part_category_2 テーブルの特定の 1 件のレコードに属します（外部キーは m_part 側にあります）。
+m_part テーブルの 1 件のレコードは、m_part_category_3 テーブルの特定の 1 件のレコードに属します（外部キーは m_part 側にあります）。
+m_part テーブルの 1 件のレコードは、m_part_category_4 テーブルの特定の 1 件のレコードに属します（外部キーは m_part 側にあります）。
+m_part テーブルの 1 件のレコードは、m_part_category_5 テーブルの特定の 1 件のレコードに属します（外部キーは m_part 側にあります）。
+m_part テーブルの 1 件のレコードは、m_part_category_6 テーブルの特定の 1 件のレコードに属します（外部キーは m_part 側にあります）。
+m_part テーブルの 1 件のレコードは、m_part_category_7 テーブルの特定の 1 件のレコードに属します（外部キーは m_part 側にあります）。
+m_part テーブルの 1 件のレコードは、m_part_category_8 テーブルの特定の 1 件のレコードに属します（外部キーは m_part 側にあります）。
+m_part テーブルの 1 件のレコードは、m_part_category_9 テーブルの特定の 1 件のレコードに属します（外部キーは m_part 側にあります）。
+m_part テーブルの 1 件のレコードは、m_part_category_10 テーブルの特定の 1 件のレコードに属します（外部キーは m_part 側にあります）。
+m_part テーブルの 1 件のレコードは、m_maker テーブルの特定の 1 件のレコードに属します（外部キーは m_part 側にあります）。
+m_part テーブルの 1 件のレコードは、m_unit_type テーブルの特定の 1 件のレコードに属します（外部キーは m_part 側にあります）。
+m_part テーブルの 1 件のレコードは、m_lot_unit_type テーブルの特定の 1 件のレコードに属します（外部キーは m_part 側にあります）。
+m_part テーブルの 1 件のレコードは、created_by_m_account_type テーブルの特定の 1 件のレコードに属します（外部キーは m_part 側にあります）。
+m_part テーブルの 1 件のレコードは、updated_by_m_account_type テーブルの特定の 1 件のレコードに属します（外部キーは m_part 側にあります）。
+m_part テーブルの 1 件のレコードは、m_part_attributes テーブルの複数のレコードと多対多の関係を持ちます（中間テーブルを介します）。
+m_part テーブルの 1 件のレコードは、parent_parts テーブルの複数のレコードと多対多の関係を持ちます（中間テーブルを介します）。
+m_part テーブルの 1 件のレコードは、child_parts テーブルの複数のレコードと多対多の関係を持ちます（中間テーブルを介します）。
+m_part テーブルの 1 件のレコードは、m_production_numbers テーブルの複数のレコードを持つことができます。
+m_part テーブルの 1 件のレコードは、m_smartmats テーブルの複数のレコードを持つことができます。
+m_part テーブルの 1 件のレコードは、t_arrivals テーブルの複数のレコードを持つことができます。
+m_part テーブルの 1 件のレコードは、t_configuration_part_details テーブルの複数のレコードを持つことができます。
+m_part テーブルの 1 件のレコードは、t_estimates テーブルの複数のレコードを持つことができます。
+m_part テーブルの 1 件のレコードは、t_inventories テーブルの複数のレコードを持つことができます。
+m_part テーブルの 1 件のレコードは、t_in_house_productions テーブルの複数のレコードを持つことができます。
+m_part テーブルの 1 件のレコードは、t_location_part_replenishment_points テーブルの複数のレコードを持つことができます。
+m_part テーブルの 1 件のレコードは、get_kakogawa_location_part_replenishment_points テーブルの複数のレコードを持つことができます。
+m_part テーブルの 1 件のレコードは、t_order_details テーブルの複数のレコードを持つことができます。
+m_part テーブルの 1 件のレコードは、t_part_files テーブルの複数のレコードを持つことができます。
+m_part テーブルの 1 件のレコードは、t_purchase_order_details テーブルの複数のレコードを持つことができます。
+m_part テーブルの 1 件のレコードは、t_purchase_orders テーブルの複数のレコードを持つことができます。
+m_part テーブルの 1 件のレコードは、t_rack_part_stock_histories テーブルの複数のレコードを持つことができます。
+m_part テーブルの 1 件のレコードは、t_rack_part_stocks テーブルの複数のレコードを持つことができます。
+m_part テーブルの 1 件のレコードは、t_shipping_picking_parts テーブルの複数のレコードを持つことができます。
+m_part テーブルの 1 件のレコードは、t_production_picking_parts テーブルの複数のレコードを持つことができます。
+m_part テーブルの 1 件のレコードは、w_arrivals テーブルの複数のレコードを持つことができます。
+m_part テーブルの 1 件のレコードは、w_production_pickings テーブルの複数のレコードを持つことができます。
+m_part テーブルの 1 件のレコードは、w_shipping_pickings テーブルの複数のレコードを持つことができます。
+m_part テーブルの 1 件のレコードは、m_processes テーブルの複数のレコードと多対多の関係を持ちます（中間テーブルを介します）。
+m_part テーブルの 1 件のレコードは、production_m_process_orders テーブルの複数のレコードと多対多の関係を持ちます（中間テーブルを介します）。
+m_part テーブルの 1 件のレコードは、design_m_process_orders テーブルの複数のレコードと多対多の関係を持ちます（中間テーブルを介します）。
+m_part テーブルの 1 件のレコードは、maintenance_m_process_orders テーブルの複数のレコードと多対多の関係を持ちます（中間テーブルを介します）。
+m_part テーブルの 1 件のレコードは、modification_m_process_orders テーブルの複数のレコードと多対多の関係を持ちます（中間テーブルを介します）。
+m_part テーブルの 1 件のレコードは、drawing_m_process_orders テーブルの複数のレコードと多対多の関係を持ちます（中間テーブルを介します）。
+m_part テーブルの 1 件のレコードは、m_process_types テーブルの複数のレコードと多対多の関係を持ちます（中間テーブルを介します）。
+m_part テーブルの 1 件のレコードは、m_suppliers テーブルの複数のレコードと多対多の関係を持ちます（中間テーブルを介します）。
+m_part テーブルの 1 件のレコードは、m_racks テーブルの複数のレコードと多対多の関係を持ちます（中間テーブルを介します）。
+m_part テーブルの 1 件のレコードは、kakogawa_rack_part_stock_summary テーブルの 1 件のレコードを持ちます。
+
+==== MPartAttribute.php ====
+m_part_attribute テーブルの 1 件のレコードは、m_parts テーブルの複数のレコードと多対多の関係を持ちます（中間テーブルを介します）。
+
+==== MPartCategory.php ====
+m_part_category テーブルの 1 件のレコードは、parent_category テーブルの特定の 1 件のレコードに属します（外部キーは m_part_category 側にあります）。
+m_part_category テーブルの 1 件のレコードは、created_by_m_account_type テーブルの特定の 1 件のレコードに属します（外部キーは m_part_category 側にあります）。
+m_part_category テーブルの 1 件のレコードは、updated_by_m_account_type テーブルの特定の 1 件のレコードに属します（外部キーは m_part_category 側にあります）。
+m_part_category テーブルの 1 件のレコードは、m_parts テーブルの複数のレコードを持つことができます。
+m_part_category テーブルの 1 件のレコードは、child_categories テーブルの複数のレコードを持つことができます。
+
+==== MPartFileType.php ====
+m_part_file_type テーブルの 1 件のレコードは、t_part_files テーブルの複数のレコードを持つことができます。
+
+==== MPaymentMethod.php ====
+m_payment_method テーブルの 1 件のレコードは、m_suppliers テーブルの複数のレコードを持つことができます。
+m_payment_method テーブルの 1 件のレコードは、m_transport_companies テーブルの複数のレコードを持つことができます。
+
+==== MPaymentSite.php ====
+m_payment_site テーブルの 1 件のレコードは、m_suppliers テーブルの複数のレコードを持つことができます。
+m_payment_site テーブルの 1 件のレコードは、m_transport_companies テーブルの複数のレコードを持つことができます。
+
+==== MPickingStatus.php ====
+m_picking_status テーブルの 1 件のレコードは、t_production_picking_parts テーブルの複数のレコードを持つことができます。
+m_picking_status テーブルの 1 件のレコードは、t_shipping_picking_parts テーブルの複数のレコードを持つことができます。
+
+==== MPickingUsageType.php ====
+m_picking_usage_type テーブルの 1 件のレコードは、t_pickings テーブルの複数のレコードを持つことができます。
+
+==== MPrefecture.php ====
+m_prefecture テーブルの 1 件のレコードは、m_customers テーブルの複数のレコードを持つことができます。
+m_prefecture テーブルの 1 件のレコードは、m_delivery_destinations テーブルの複数のレコードを持つことができます。
+m_prefecture テーブルの 1 件のレコードは、m_suppliers テーブルの複数のレコードを持つことができます。
+
+==== MPrinter.php ====
+m_printer テーブルの 1 件のレコードは、m_employees テーブルの複数のレコードを持つことができます。
+
+==== MPrivilegeType.php ====
+m_privilege_type テーブルの 1 件のレコードは、m_employee_features テーブルの複数のレコードと多対多の関係を持ちます（中間テーブルを介します）。
+m_privilege_type テーブルの 1 件のレコードは、m_employees テーブルの複数のレコードと多対多の関係を持ちます（中間テーブルを介します）。
+m_privilege_type テーブルの 1 件のレコードは、m_features テーブルの複数のレコードと多対多の関係を持ちます（中間テーブルを介します）。
+
+==== MProcess.php ====
+m_process テーブルの 1 件のレコードは、m_process_type テーブルの特定の 1 件のレコードに属します（外部キーは m_process 側にあります）。
+m_process テーブルの 1 件のレコードは、created_by_m_account_type テーブルの特定の 1 件のレコードに属します（外部キーは m_process 側にあります）。
+m_process テーブルの 1 件のレコードは、updated_by_m_account_type テーブルの特定の 1 件のレコードに属します（外部キーは m_process 側にあります）。
+m_process テーブルの 1 件のレコードは、m_check_sheet_bases テーブルの複数のレコードを持つことができます。
+m_process テーブルの 1 件のレコードは、m_check_sheet_base テーブルの 1 件のレコードを持ちます。
+m_process テーブルの 1 件のレコードは、m_parts テーブルの複数のレコードと多対多の関係を持ちます（中間テーブルを介します）。
+m_process テーブルの 1 件のレコードは、m_process_types テーブルの複数のレコードと多対多の関係を持ちます（中間テーブルを介します）。
+m_process テーブルの 1 件のレコードは、pattern_m_process_patterns テーブルの複数のレコードと多対多の関係を持ちます（中間テーブルを介します）。
+m_process テーブルの 1 件のレコードは、process_m_process_patterns テーブルの複数のレコードと多対多の関係を持ちます（中間テーブルを介します）。
+m_process テーブルの 1 件のレコードは、t_design_process_orders テーブルの複数のレコードを持つことができます。
+m_process テーブルの 1 件のレコードは、t_production_process_orders テーブルの複数のレコードを持つことができます。
+m_process テーブルの 1 件のレコードは、m_group テーブルの特定の 1 件のレコードに属します（外部キーは m_process 側にあります）。
+
+==== MProcessPattern.php ====
+m_process_pattern テーブルの 1 件のレコードは、created_by_m_account_type テーブルの特定の 1 件のレコードに属します（外部キーは m_process_pattern 側にあります）。
+m_process_pattern テーブルの 1 件のレコードは、updated_by_m_account_type テーブルの特定の 1 件のレコードに属します（外部キーは m_process_pattern 側にあります）。
+m_process_pattern テーブルの 1 件のレコードは、pattern_m_processes テーブルの複数のレコードと多対多の関係を持ちます（中間テーブルを介します）。
+m_process_pattern テーブルの 1 件のレコードは、m_processes テーブルの複数のレコードと多対多の関係を持ちます（中間テーブルを介します）。
+m_process_pattern テーブルの 1 件のレコードは、m_process_type テーブルの特定の 1 件のレコードに属します（外部キーは m_process_pattern 側にあります）。
+
+==== MProcessType.php ====
+m_process_type テーブルの 1 件のレコードは、m_parts テーブルの複数のレコードと多対多の関係を持ちます（中間テーブルを介します）。
+m_process_type テーブルの 1 件のレコードは、m_processes テーブルの複数のレコードと多対多の関係を持ちます（中間テーブルを介します）。
+m_process_type テーブルの 1 件のレコードは、t_design_process_groups テーブルの複数のレコードを持つことができます。
+m_process_type テーブルの 1 件のレコードは、t_production_process_groups テーブルの複数のレコードを持つことができます。
+m_process_type テーブルの 1 件のレコードは、m_process_patterns テーブルの複数のレコードを持つことができます。
+
+==== MProductionNumber.php ====
+m_production_number テーブルの 1 件のレコードは、t_in_house_production テーブルの特定の 1 件のレコードに属します（外部キーは m_production_number 側にあります）。
+m_production_number テーブルの 1 件のレコードは、m_part テーブルの特定の 1 件のレコードに属します（外部キーは m_production_number 側にあります）。
+m_production_number テーブルの 1 件のレコードは、m_machine_status テーブルの特定の 1 件のレコードに属します（外部キーは m_production_number 側にあります）。
+m_production_number テーブルの 1 件のレコードは、m_machine_maintenance_status テーブルの特定の 1 件のレコードに属します（外部キーは m_production_number 側にあります）。
+m_production_number テーブルの 1 件のレコードは、m_rack テーブルの特定の 1 件のレコードに属します（外部キーは m_production_number 側にあります）。
+m_production_number テーブルの 1 件のレコードは、m_location テーブルの特定の 1 件のレコードに属します（外部キーは m_production_number 側にあります）。
+m_production_number テーブルの 1 件のレコードは、rotable_spare_part_m_production_nnumber テーブルの特定の 1 件のレコードに属します（外部キーは m_production_number 側にあります）。
+m_production_number テーブルの 1 件のレコードは、created_by_m_account_type テーブルの特定の 1 件のレコードに属します（外部キーは m_production_number 側にあります）。
+m_production_number テーブルの 1 件のレコードは、updated_by_m_account_type テーブルの特定の 1 件のレコードに属します（外部キーは m_production_number 側にあります）。
+m_production_number テーブルの 1 件のレコードは、t_machine_returns テーブルの複数のレコードと多対多の関係を持ちます（中間テーブルを介します）。
+m_production_number テーブルの 1 件のレコードは、t_drawing_approval_requests テーブルの複数のレコードを持つことができます。
+m_production_number テーブルの 1 件のレコードは、t_order_details テーブルの複数のレコードを持つことができます。
+m_production_number テーブルの 1 件のレコードは、t_production_number_histories テーブルの複数のレコードを持つことができます。
+m_production_number テーブルの 1 件のレコードは、t_pickings テーブルの複数のレコードを持つことができます。
+m_production_number テーブルの 1 件のレコードは、t_production_picking_parts テーブルの複数のレコードを持つことができます。
+m_production_number テーブルの 1 件のレコードは、t_shipping_details テーブルの複数のレコードを持つことができます。
+
+==== MProductionProcessOrderStatus.php ====
+m_production_process_order_status テーブルの 1 件のレコードは、t_production_process_orders テーブルの複数のレコードを持つことができます。
+
+==== MPurchaseMethod.php ====
+m_purchase_method テーブルの 1 件のレコードは、m_suppliers テーブルの複数のレコードを持つことができます。
+
+==== MPurchaseOrderStatus.php ====
+m_purchase_order_status テーブルの 1 件のレコードは、t_purchase_order_details テーブルの複数のレコードを持つことができます。
+m_purchase_order_status テーブルの 1 件のレコードは、t_purchase_orders テーブルの複数のレコードを持つことができます。
+
+==== MQuantityType.php ====
+
+==== MRack.php ====
+m_rack テーブルの 1 件のレコードは、m_location テーブルの特定の 1 件のレコードに属します（外部キーは m_rack 側にあります）。
+m_rack テーブルの 1 件のレコードは、created_by_m_account_type テーブルの特定の 1 件のレコードに属します（外部キーは m_rack 側にあります）。
+m_rack テーブルの 1 件のレコードは、updated_by_m_account_type テーブルの特定の 1 件のレコードに属します（外部キーは m_rack 側にあります）。
+m_rack テーブルの 1 件のレコードは、m_production_numbers テーブルの複数のレコードを持つことができます。
+m_rack テーブルの 1 件のレコードは、m_smartmats テーブルの複数のレコードを持つことができます。
+m_rack テーブルの 1 件のレコードは、t_inventories テーブルの複数のレコードを持つことができます。
+m_rack テーブルの 1 件のレコードは、t_production_picking_part_records テーブルの複数のレコードを持つことができます。
+m_rack テーブルの 1 件のレコードは、t_rack_part_stock_histories テーブルの複数のレコードを持つことができます。
+m_rack テーブルの 1 件のレコードは、t_rack_part_stocks テーブルの複数のレコードを持つことができます。
+m_rack テーブルの 1 件のレコードは、m_parts テーブルの複数のレコードと多対多の関係を持ちます（中間テーブルを介します）。
+m_rack テーブルの 1 件のレコードは、t_shipping_picking_part_records テーブルの複数のレコードを持つことができます。
+m_rack テーブルの 1 件のレコードは、w_arrivals テーブルの複数のレコードを持つことができます。
+m_rack テーブルの 1 件のレコードは、w_production_pickings テーブルの複数のレコードを持つことができます。
+m_rack テーブルの 1 件のレコードは、w_shipping_pickings テーブルの複数のレコードを持つことができます。
+m_rack テーブルの 1 件のレコードは、part_racks テーブルの複数のレコードと多対多の関係を持ちます（中間テーブルを介します）。
+
+==== MRegistrationMethod.php ====
+m_registration_method テーブルの 1 件のレコードは、t_in_house_productions テーブルの複数のレコードを持つことができます。
+
+==== MRemoteIsland.php ====
+m_remote_island テーブルの 1 件のレコードは、m_prefecture テーブルの特定の 1 件のレコードに属します（外部キーは m_remote_island 側にあります）。
+m_remote_island テーブルの 1 件のレコードは、created_by_m_account_type テーブルの特定の 1 件のレコードに属します（外部キーは m_remote_island 側にあります）。
+m_remote_island テーブルの 1 件のレコードは、updated_by_m_account_type テーブルの特定の 1 件のレコードに属します（外部キーは m_remote_island 側にあります）。
+
+==== MReplenishmentType.php ====
+m_replenishment_type テーブルの 1 件のレコードは、t_location_part_replenishment_points テーブルの複数のレコードを持つことができます。
+
+==== MRoundType.php ====
+m_round_type テーブルの 1 件のレコードは、m_suppliers テーブルの複数のレコードを持つことができます。
+m_round_type テーブルの 1 件のレコードは、m_transport_companies テーブルの複数のレコードを持つことができます。
+
+==== MSalesDivision.php ====
+m_sales_division テーブルの 1 件のレコードは、t_contracts テーブルの複数のレコードを持つことができます。
+m_sales_division テーブルの 1 件のレコードは、t_order_details テーブルの複数のレコードを持つことができます。
+m_sales_division テーブルの 1 件のレコードは、t_order_other_items テーブルの複数のレコードを持つことができます。
+m_sales_division テーブルの 1 件のレコードは、t_orders テーブルの複数のレコードを持つことができます。
+m_sales_division テーブルの 1 件のレコードは、t_shipping_other_items テーブルの複数のレコードを持つことができます。
+不明なリレーション種別です。
+
+==== MScheduleType.php ====
+m_schedule_type テーブルの 1 件のレコードは、t_employee_schedules テーブルの複数のレコードを持つことができます。
+
+==== MShip.php ====
+m_ship テーブルの 1 件のレコードは、m_customer テーブルの特定の 1 件のレコードに属します（外部キーは m_ship 側にあります）。
+m_ship テーブルの 1 件のレコードは、created_by_m_account_type テーブルの特定の 1 件のレコードに属します（外部キーは m_ship 側にあります）。
+m_ship テーブルの 1 件のレコードは、updated_by_m_account_type テーブルの特定の 1 件のレコードに属します（外部キーは m_ship 側にあります）。
+m_ship テーブルの 1 件のレコードは、t_contracts テーブルの複数のレコードを持つことができます。
+
+==== MShippingStatus.php ====
+m_shipping_status テーブルの 1 件のレコードは、t_order_shippings テーブルの複数のレコードを持つことができます。
+m_shipping_status テーブルの 1 件のレコードは、t_shippings テーブルの複数のレコードを持つことができます。
+
+==== MShippingUsage.php ====
+m_shipping_usage テーブルの 1 件のレコードは、t_shippings テーブルの複数のレコードを持つことができます。
+
+==== MSmartmat.php ====
+m_smartmat テーブルの 1 件のレコードは、m_location テーブルの特定の 1 件のレコードに属します（外部キーは m_smartmat 側にあります）。
+m_smartmat テーブルの 1 件のレコードは、m_part テーブルの特定の 1 件のレコードに属します（外部キーは m_smartmat 側にあります）。
+m_smartmat テーブルの 1 件のレコードは、m_rack テーブルの特定の 1 件のレコードに属します（外部キーは m_smartmat 側にあります）。
+m_smartmat テーブルの 1 件のレコードは、created_by_m_account_type テーブルの特定の 1 件のレコードに属します（外部キーは m_smartmat 側にあります）。
+m_smartmat テーブルの 1 件のレコードは、updated_by_m_account_type テーブルの特定の 1 件のレコードに属します（外部キーは m_smartmat 側にあります）。
+
+==== MSmartmatSetting.php ====
+m_smartmat_setting テーブルの 1 件のレコードは、created_by_m_account_type テーブルの特定の 1 件のレコードに属します（外部キーは m_smartmat_setting 側にあります）。
+m_smartmat_setting テーブルの 1 件のレコードは、updated_by_m_account_type テーブルの特定の 1 件のレコードに属します（外部キーは m_smartmat_setting 側にあります）。
+
+==== MStockChangeReason.php ====
+m_stock_change_reason テーブルの 1 件のレコードは、t_rack_part_stock_histories テーブルの複数のレコードを持つことができます。
+
+==== MStockHistoryType.php ====
+m_stock_history_type テーブルの 1 件のレコードは、t_rack_part_stock_histories テーブルの複数のレコードを持つことができます。
+
+==== MSupplier.php ====
+m_supplier テーブルの 1 件のレコードは、m_honorific テーブルの特定の 1 件のレコードに属します（外部キーは m_supplier 側にあります）。
+m_supplier テーブルの 1 件のレコードは、m_supplier_type テーブルの特定の 1 件のレコードに属します（外部キーは m_supplier 側にあります）。
+m_supplier テーブルの 1 件のレコードは、created_by_m_account_type テーブルの特定の 1 件のレコードに属します（外部キーは m_supplier 側にあります）。
+m_supplier テーブルの 1 件のレコードは、updated_by_m_account_type テーブルの特定の 1 件のレコードに属します（外部キーは m_supplier 側にあります）。
+m_supplier テーブルの 1 件のレコードは、m_purchase_method テーブルの特定の 1 件のレコードに属します（外部キーは m_supplier 側にあります）。
+m_supplier テーブルの 1 件のレコードは、m_prefecture テーブルの特定の 1 件のレコードに属します（外部キーは m_supplier 側にあります）。
+m_supplier テーブルの 1 件のレコードは、m_round_type テーブルの特定の 1 件のレコードに属します（外部キーは m_supplier 側にあります）。
+m_supplier テーブルの 1 件のレコードは、m_payment_method テーブルの特定の 1 件のレコードに属します（外部キーは m_supplier 側にあります）。
+m_supplier テーブルの 1 件のレコードは、m_parts テーブルの複数のレコードと多対多の関係を持ちます（中間テーブルを介します）。
+m_supplier テーブルの 1 件のレコードは、t_arrivals テーブルの複数のレコードを持つことができます。
+m_supplier テーブルの 1 件のレコードは、t_estimates テーブルの複数のレコードと多対多の関係を持ちます（中間テーブルを介します）。
+m_supplier テーブルの 1 件のレコードは、t_estimate_suppliers テーブルの複数のレコードと多対多の関係を持ちます（中間テーブルを介します）。
+m_supplier テーブルの 1 件のレコードは、t_purchase_orders テーブルの複数のレコードを持つことができます。
+m_supplier テーブルの 1 件のレコードは、m_external_accounts テーブルの複数のレコードと多対多の関係を持ちます（中間テーブルを介します）。
+m_supplier テーブルの 1 件のレコードは、m_supplier_banks テーブルの複数のレコードを持つことができます。
+
+==== MSupplierBank.php ====
+m_supplier_bank テーブルの 1 件のレコードは、m_supplier テーブルの特定の 1 件のレコードに属します（外部キーは m_supplier_bank 側にあります）。
+m_supplier_bank テーブルの 1 件のレコードは、m_bank_deposit_type テーブルの特定の 1 件のレコードに属します（外部キーは m_supplier_bank 側にあります）。
+m_supplier_bank テーブルの 1 件のレコードは、m_transfer_fee_division テーブルの特定の 1 件のレコードに属します（外部キーは m_supplier_bank 側にあります）。
+m_supplier_bank テーブルの 1 件のレコードは、m_payment_site テーブルの特定の 1 件のレコードに属します（外部キーは m_supplier_bank 側にあります）。
+m_supplier_bank テーブルの 1 件のレコードは、created_by_m_account_type テーブルの特定の 1 件のレコードに属します（外部キーは m_supplier_bank 側にあります）。
+m_supplier_bank テーブルの 1 件のレコードは、updated_by_m_account_type テーブルの特定の 1 件のレコードに属します（外部キーは m_supplier_bank 側にあります）。
+
+==== MSupplierType.php ====
+m_supplier_type テーブルの 1 件のレコードは、m_suppliers テーブルの複数のレコードを持つことができます。
+
+==== MTaxRate.php ====
+m_tax_rate テーブルの 1 件のレコードは、t_purchase_order_details テーブルの複数のレコードを持つことができます。
+m_tax_rate テーブルの 1 件のレコードは、t_purchase_orders テーブルの複数のレコードを持つことができます。
+
+==== MTaxType.php ====
+m_tax_type テーブルの 1 件のレコードは、m_customers テーブルの複数のレコードを持つことができます。
+m_tax_type テーブルの 1 件のレコードは、m_suppliers テーブルの複数のレコードを持つことができます。
+m_tax_type テーブルの 1 件のレコードは、m_transport_companies テーブルの複数のレコードを持つことができます。
+m_tax_type テーブルの 1 件のレコードは、t_billings テーブルの複数のレコードを持つことができます。
+
+==== MToMailGroup.php ====
+
+==== MTransferFeeDivision.php ====
+m_transfer_fee_division テーブルの 1 件のレコードは、m_suppliers テーブルの複数のレコードを持つことができます。
+m_transfer_fee_division テーブルの 1 件のレコードは、m_transport_companies テーブルの複数のレコードを持つことができます。
+
+==== MTransportCompany.php ====
+m_transport_company テーブルの 1 件のレコードは、m_honorific テーブルの特定の 1 件のレコードに属します（外部キーは m_transport_company 側にあります）。
+m_transport_company テーブルの 1 件のレコードは、created_by_m_account_type テーブルの特定の 1 件のレコードに属します（外部キーは m_transport_company 側にあります）。
+m_transport_company テーブルの 1 件のレコードは、updated_by_m_account_type テーブルの特定の 1 件のレコードに属します（外部キーは m_transport_company 側にあります）。
+m_transport_company テーブルの 1 件のレコードは、m_prefecture テーブルの特定の 1 件のレコードに属します（外部キーは m_transport_company 側にあります）。
+m_transport_company テーブルの 1 件のレコードは、m_round_type テーブルの特定の 1 件のレコードに属します（外部キーは m_transport_company 側にあります）。
+m_transport_company テーブルの 1 件のレコードは、m_payment_method テーブルの特定の 1 件のレコードに属します（外部キーは m_transport_company 側にあります）。
+m_transport_company テーブルの 1 件のレコードは、group_m_car_types テーブルの複数のレコードと多対多の関係を持ちます（中間テーブルを介します）。
+m_transport_company テーブルの 1 件のレコードは、t_charter_truck_request_groups テーブルの複数のレコードと多対多の関係を持ちます（中間テーブルを介します）。
+m_transport_company テーブルの 1 件のレコードは、m_car_types テーブルの複数のレコードと多対多の関係を持ちます（中間テーブルを介します）。
+m_transport_company テーブルの 1 件のレコードは、t_charter_truck_requests テーブルの複数のレコードと多対多の関係を持ちます（中間テーブルを介します）。
+m_transport_company テーブルの 1 件のレコードは、m_customers テーブルの複数のレコードを持つことができます。
+m_transport_company テーブルの 1 件のレコードは、m_delivery_destinations テーブルの複数のレコードを持つことができます。
+m_transport_company テーブルの 1 件のレコードは、m_delivery_specific_times テーブルの複数のレコードを持つことができます。
+m_transport_company テーブルの 1 件のレコードは、t_charter_truck_request_arrangements テーブルの複数のレコードを持つことができます。
+m_transport_company テーブルの 1 件のレコードは、t_charter_truck_request_transport_companies テーブルの複数のレコードを持つことができます。
+m_transport_company テーブルの 1 件のレコードは、t_order_shippings テーブルの複数のレコードを持つことができます。
+m_transport_company テーブルの 1 件のレコードは、t_shippings テーブルの複数のレコードを持つことができます。
+m_transport_company テーブルの 1 件のレコードは、m_transport_company_banks テーブルの複数のレコードを持つことができます。
+m_transport_company テーブルの 1 件のレコードは、m_external_accounts テーブルの複数のレコードと多対多の関係を持ちます（中間テーブルを介します）。
+m_transport_company テーブルの 1 件のレコードは、m_transport_method_types テーブルの複数のレコードと多対多の関係を持ちます（中間テーブルを介します）。
+
+==== MTransportCompanyBank.php ====
+m_transport_company_bank テーブルの 1 件のレコードは、m_transport_company テーブルの特定の 1 件のレコードに属します（外部キーは m_transport_company_bank 側にあります）。
+m_transport_company_bank テーブルの 1 件のレコードは、m_bank_deposit_type テーブルの特定の 1 件のレコードに属します（外部キーは m_transport_company_bank 側にあります）。
+m_transport_company_bank テーブルの 1 件のレコードは、m_transfer_fee_division テーブルの特定の 1 件のレコードに属します（外部キーは m_transport_company_bank 側にあります）。
+m_transport_company_bank テーブルの 1 件のレコードは、m_payment_site テーブルの特定の 1 件のレコードに属します（外部キーは m_transport_company_bank 側にあります）。
+m_transport_company_bank テーブルの 1 件のレコードは、created_by_m_account_type テーブルの特定の 1 件のレコードに属します（外部キーは m_transport_company_bank 側にあります）。
+m_transport_company_bank テーブルの 1 件のレコードは、updated_by_m_account_type テーブルの特定の 1 件のレコードに属します（外部キーは m_transport_company_bank 側にあります）。
+
+==== MTransportMethodType.php ====
+m_transport_method_type テーブルの 1 件のレコードは、t_order_shippings テーブルの複数のレコードを持つことができます。
+m_transport_method_type テーブルの 1 件のレコードは、t_machine_returns テーブルの複数のレコードを持つことができます。
+m_transport_method_type テーブルの 1 件のレコードは、t_shippings テーブルの複数のレコードを持つことができます。
+m_transport_method_type テーブルの 1 件のレコードは、m_transport_companies テーブルの複数のレコードと多対多の関係を持ちます（中間テーブルを介します）。
+
+==== MUnitType.php ====
+m_unit_type テーブルの 1 件のレコードは、m_parts テーブルの複数のレコードを持つことができます。
+m_unit_type テーブルの 1 件のレコードは、t_order_other_items テーブルの複数のレコードを持つことができます。
+m_unit_type テーブルの 1 件のレコードは、t_shipping_other_items テーブルの複数のレコードを持つことができます。
+
+==== MVisitCycle.php ====
+m_visit_cycle テーブルの 1 件のレコードは、t_maintenances テーブルの複数のレコードを持つことができます。
+
+==== MWorkType.php ====
+m_work_type テーブルの 1 件のレコードは、m_pages テーブルの複数のレコードを持つことができます。
+
+==== PartProcessOrder.php ====
+part_process_order テーブルの 1 件のレコードは、m_part テーブルの特定の 1 件のレコードに属します（外部キーは part_process_order 側にあります）。
+part_process_order テーブルの 1 件のレコードは、m_process テーブルの特定の 1 件のレコードに属します（外部キーは part_process_order 側にあります）。
+part_process_order テーブルの 1 件のレコードは、m_process_type テーブルの特定の 1 件のレコードに属します（外部キーは part_process_order 側にあります）。
+
+==== Session.php ====
+
+==== TArrival.php ====
+t_arrival テーブルの 1 件のレコードは、m_part テーブルの特定の 1 件のレコードに属します（外部キーは t_arrival 側にあります）。
+t_arrival テーブルの 1 件のレコードは、m_supplier テーブルの特定の 1 件のレコードに属します（外部キーは t_arrival 側にあります）。
+t_arrival テーブルの 1 件のレコードは、m_location テーブルの特定の 1 件のレコードに属します（外部キーは t_arrival 側にあります）。
+t_arrival テーブルの 1 件のレコードは、m_arrival_type テーブルの特定の 1 件のレコードに属します（外部キーは t_arrival 側にあります）。
+t_arrival テーブルの 1 件のレコードは、m_arrival_status テーブルの特定の 1 件のレコードに属します（外部キーは t_arrival 側にあります）。
+t_arrival テーブルの 1 件のレコードは、m_delivery_destination テーブルの特定の 1 件のレコードに属します（外部キーは t_arrival 側にあります）。
+t_arrival テーブルの 1 件のレコードは、allocatiosn テーブルの複数のレコードを持つことができます。
+t_arrival テーブルの 1 件のレコードは、t_charter_truck_requests テーブルの複数のレコードを持つことができます。
+t_arrival テーブルの 1 件のレコードは、created_by_m_account_type テーブルの特定の 1 件のレコードに属します（外部キーは t_arrival 側にあります）。
+t_arrival テーブルの 1 件のレコードは、updated_by_m_account_type テーブルの特定の 1 件のレコードに属します（外部キーは t_arrival 側にあります）。
+t_arrival テーブルの 1 件のレコードは、m_production_number テーブルの特定の 1 件のレコードに属します（外部キーは t_arrival 側にあります）。
+t_arrival テーブルの 1 件のレコードは、m_customer テーブルの特定の 1 件のレコードに属します（外部キーは t_arrival 側にあります）。
+
+==== TBilling.php ====
+不明なリレーション種別です。
+t_billing テーブルの 1 件のレコードは、t_order テーブルの特定の 1 件のレコードに属します（外部キーは t_billing 側にあります）。
+t_billing テーブルの 1 件のレコードは、created_by_m_account_type テーブルの特定の 1 件のレコードに属します（外部キーは t_billing 側にあります）。
+t_billing テーブルの 1 件のレコードは、updated_by_m_account_type テーブルの特定の 1 件のレコードに属します（外部キーは t_billing 側にあります）。
+t_billing テーブルの 1 件のレコードは、t_billing_details テーブルの複数のレコードを持つことができます。
+t_billing テーブルの 1 件のレコードは、m_contract_update_division テーブルの特定の 1 件のレコードに属します（外部キーは t_billing 側にあります）。
+
+==== TBillingDetail.php ====
+t_billing_detail テーブルの 1 件のレコードは、t_billing テーブルの特定の 1 件のレコードに属します（外部キーは t_billing_detail 側にあります）。
+t_billing_detail テーブルの 1 件のレコードは、m_billing_status テーブルの特定の 1 件のレコードに属します（外部キーは t_billing_detail 側にあります）。
+t_billing_detail テーブルの 1 件のレコードは、created_by_m_account_type テーブルの特定の 1 件のレコードに属します（外部キーは t_billing_detail 側にあります）。
+t_billing_detail テーブルの 1 件のレコードは、updated_by_m_account_type テーブルの特定の 1 件のレコードに属します（外部キーは t_billing_detail 側にあります）。
+
+==== TCharterTruckEstimate.php ====
+t_charter_truck_estimate テーブルの 1 件のレコードは、m_car_type テーブルの特定の 1 件のレコードに属します（外部キーは t_charter_truck_estimate 側にあります）。
+t_charter_truck_estimate テーブルの 1 件のレコードは、created_by_m_account_type テーブルの特定の 1 件のレコードに属します（外部キーは t_charter_truck_estimate 側にあります）。
+t_charter_truck_estimate テーブルの 1 件のレコードは、updated_by_m_account_type テーブルの特定の 1 件のレコードに属します（外部キーは t_charter_truck_estimate 側にあります）。
+t_charter_truck_estimate テーブルの 1 件のレコードは、t_charter_truck_estimate_details テーブルの複数のレコードを持つことができます。
+t_charter_truck_estimate テーブルの 1 件のレコードは、t_charter_truck_request_transport_companies テーブルの複数のレコードを持つことができます。
+
+==== TCharterTruckEstimateDetail.php ====
+t_charter_truck_estimate_detail テーブルの 1 件のレコードは、t_charter_truck_estimate テーブルの特定の 1 件のレコードに属します（外部キーは t_charter_truck_estimate_detail 側にあります）。
+t_charter_truck_estimate_detail テーブルの 1 件のレコードは、t_charter_truck_request テーブルの特定の 1 件のレコードに属します（外部キーは t_charter_truck_estimate_detail 側にあります）。
+t_charter_truck_estimate_detail テーブルの 1 件のレコードは、created_by_m_account_type テーブルの特定の 1 件のレコードに属します（外部キーは t_charter_truck_estimate_detail 側にあります）。
+t_charter_truck_estimate_detail テーブルの 1 件のレコードは、updated_by_m_account_type テーブルの特定の 1 件のレコードに属します（外部キーは t_charter_truck_estimate_detail 側にあります）。
+
+==== TCharterTruckRequest.php ====
+不明なリレーション種別です。
+t_charter_truck_request テーブルの 1 件のレコードは、t_shipping テーブルの特定の 1 件のレコードに属します（外部キーは t_charter_truck_request 側にあります）。
+t_charter_truck_request テーブルの 1 件のレコードは、t_arrival テーブルの特定の 1 件のレコードに属します（外部キーは t_charter_truck_request 側にあります）。
+t_charter_truck_request テーブルの 1 件のレコードは、t_charter_truck_request_group テーブルの特定の 1 件のレコードに属します（外部キーは t_charter_truck_request 側にあります）。
+t_charter_truck_request テーブルの 1 件のレコードは、m_prefecture テーブルの特定の 1 件のレコードに属します（外部キーは t_charter_truck_request 側にあります）。
+t_charter_truck_request テーブルの 1 件のレコードは、m_car_type テーブルの特定の 1 件のレコードに属します（外部キーは t_charter_truck_request 側にあります）。
+t_charter_truck_request テーブルの 1 件のレコードは、created_by_m_account_type テーブルの特定の 1 件のレコードに属します（外部キーは t_charter_truck_request 側にあります）。
+t_charter_truck_request テーブルの 1 件のレコードは、updated_by_m_account_type テーブルの特定の 1 件のレコードに属します（外部キーは t_charter_truck_request 側にあります）。
+t_charter_truck_request テーブルの 1 件のレコードは、m_car_types テーブルの複数のレコードと多対多の関係を持ちます（中間テーブルを介します）。
+t_charter_truck_request テーブルの 1 件のレコードは、m_transport_companies テーブルの複数のレコードと多対多の関係を持ちます（中間テーブルを介します）。
+t_charter_truck_request テーブルの 1 件のレコードは、t_charter_truck_estimate_details テーブルの複数のレコードを持つことができます。
+
+==== TCharterTruckRequestArrangement.php ====
+t_charter_truck_request_arrangement テーブルの 1 件のレコードは、t_charter_truck_request_group テーブルの特定の 1 件のレコードに属します（外部キーは t_charter_truck_request_arrangement 側にあります）。
+t_charter_truck_request_arrangement テーブルの 1 件のレコードは、m_transport_company テーブルの特定の 1 件のレコードに属します（外部キーは t_charter_truck_request_arrangement 側にあります）。
+t_charter_truck_request_arrangement テーブルの 1 件のレコードは、m_charter_truck_request_arrangement_status テーブルの特定の 1 件のレコードに属します（外部キーは t_charter_truck_request_arrangement 側にあります）。
+t_charter_truck_request_arrangement テーブルの 1 件のレコードは、m_car_type テーブルの特定の 1 件のレコードに属します（外部キーは t_charter_truck_request_arrangement 側にあります）。
+t_charter_truck_request_arrangement テーブルの 1 件のレコードは、created_by_m_account_type テーブルの特定の 1 件のレコードに属します（外部キーは t_charter_truck_request_arrangement 側にあります）。
+t_charter_truck_request_arrangement テーブルの 1 件のレコードは、updated_by_m_account_type テーブルの特定の 1 件のレコードに属します（外部キーは t_charter_truck_request_arrangement 側にあります）。
+t_charter_truck_request_arrangement テーブルの 1 件のレコードは、t_charter_truck_request_arrangement_details テーブルの複数のレコードを持つことができます。
+
+==== TCharterTruckRequestArrangementDetail.php ====
+t_charter_truck_request_arrangement_detail テーブルの 1 件のレコードは、t_charter_truck_request_arrangement テーブルの特定の 1 件のレコードに属します（外部キーは t_charter_truck_request_arrangement_detail 側にあります）。
+t_charter_truck_request_arrangement_detail テーブルの 1 件のレコードは、created_by_m_account_type テーブルの特定の 1 件のレコードに属します（外部キーは t_charter_truck_request_arrangement_detail 側にあります）。
+t_charter_truck_request_arrangement_detail テーブルの 1 件のレコードは、updated_by_m_account_type テーブルの特定の 1 件のレコードに属します（外部キーは t_charter_truck_request_arrangement_detail 側にあります）。
+
+==== TCharterTruckRequestGroup.php ====
+t_charter_truck_request_group テーブルの 1 件のレコードは、m_transport_company テーブルの特定の 1 件のレコードに属します（外部キーは t_charter_truck_request_group 側にあります）。
+t_charter_truck_request_group テーブルの 1 件のレコードは、m_car_type テーブルの特定の 1 件のレコードに属します（外部キーは t_charter_truck_request_group 側にあります）。
+t_charter_truck_request_group テーブルの 1 件のレコードは、m_charter_truck_request_status テーブルの特定の 1 件のレコードに属します（外部キーは t_charter_truck_request_group 側にあります）。
+t_charter_truck_request_group テーブルの 1 件のレコードは、created_by_m_account_type テーブルの特定の 1 件のレコードに属します（外部キーは t_charter_truck_request_group 側にあります）。
+t_charter_truck_request_group テーブルの 1 件のレコードは、updated_by_m_account_type テーブルの特定の 1 件のレコードに属します（外部キーは t_charter_truck_request_group 側にあります）。
+t_charter_truck_request_group テーブルの 1 件のレコードは、m_car_types テーブルの複数のレコードと多対多の関係を持ちます（中間テーブルを介します）。
+t_charter_truck_request_group テーブルの 1 件のレコードは、m_transport_companies テーブルの複数のレコードと多対多の関係を持ちます（中間テーブルを介します）。
+t_charter_truck_request_group テーブルの 1 件のレコードは、t_charter_truck_request_arrangements テーブルの複数のレコードを持つことができます。
+t_charter_truck_request_group テーブルの 1 件のレコードは、t_charter_truck_request_transport_companies テーブルの複数のレコードを持つことができます。
+t_charter_truck_request_group テーブルの 1 件のレコードは、t_charter_truck_requests テーブルの複数のレコードを持つことができます。
+
+==== TCharterTruckRequestTransportCompany.php ====
+t_charter_truck_request_transport_company テーブルの 1 件のレコードは、t_charter_truck_request_group テーブルの特定の 1 件のレコードに属します（外部キーは t_charter_truck_request_transport_company 側にあります）。
+t_charter_truck_request_transport_company テーブルの 1 件のレコードは、m_transport_company テーブルの特定の 1 件のレコードに属します（外部キーは t_charter_truck_request_transport_company 側にあります）。
+t_charter_truck_request_transport_company テーブルの 1 件のレコードは、m_charter_truck_request_entry_status テーブルの特定の 1 件のレコードに属します（外部キーは t_charter_truck_request_transport_company 側にあります）。
+t_charter_truck_request_transport_company テーブルの 1 件のレコードは、t_charter_truck_estimate テーブルの特定の 1 件のレコードに属します（外部キーは t_charter_truck_request_transport_company 側にあります）。
+t_charter_truck_request_transport_company テーブルの 1 件のレコードは、m_charter_truck_request_order_status テーブルの特定の 1 件のレコードに属します（外部キーは t_charter_truck_request_transport_company 側にあります）。
+t_charter_truck_request_transport_company テーブルの 1 件のレコードは、created_by_m_account_type テーブルの特定の 1 件のレコードに属します（外部キーは t_charter_truck_request_transport_company 側にあります）。
+t_charter_truck_request_transport_company テーブルの 1 件のレコードは、updated_by_m_account_type テーブルの特定の 1 件のレコードに属します（外部キーは t_charter_truck_request_transport_company 側にあります）。
+
+==== TCheckSheetApprovalRequest.php ====
+t_check_sheet_approval_request テーブルの 1 件のレコードは、t_check_sheet_record テーブルの特定の 1 件のレコードに属します（外部キーは t_check_sheet_approval_request 側にあります）。
+t_check_sheet_approval_request テーブルの 1 件のレコードは、m_check_sheet_approval_request_status テーブルの特定の 1 件のレコードに属します（外部キーは t_check_sheet_approval_request 側にあります）。
+t_check_sheet_approval_request テーブルの 1 件のレコードは、created_by_m_account_type テーブルの特定の 1 件のレコードに属します（外部キーは t_check_sheet_approval_request 側にあります）。
+t_check_sheet_approval_request テーブルの 1 件のレコードは、updated_by_m_account_type テーブルの特定の 1 件のレコードに属します（外部キーは t_check_sheet_approval_request 側にあります）。
+t_check_sheet_approval_request テーブルの 1 件のレコードは、t_check_sheet_approval_request_histories テーブルの複数のレコードを持つことができます。
+
+==== TCheckSheetApprovalRequestHistory.php ====
+t_check_sheet_approval_request_history テーブルの 1 件のレコードは、t_check_sheet_approval_request テーブルの特定の 1 件のレコードに属します（外部キーは t_check_sheet_approval_request_history 側にあります）。
+t_check_sheet_approval_request_history テーブルの 1 件のレコードは、m_check_sheet_approval_request_status テーブルの特定の 1 件のレコードに属します（外部キーは t_check_sheet_approval_request_history 側にあります）。
+t_check_sheet_approval_request_history テーブルの 1 件のレコードは、m_employee テーブルの特定の 1 件のレコードに属します（外部キーは t_check_sheet_approval_request_history 側にあります）。
+t_check_sheet_approval_request_history テーブルの 1 件のレコードは、created_by_m_account_type テーブルの特定の 1 件のレコードに属します（外部キーは t_check_sheet_approval_request_history 側にあります）。
+t_check_sheet_approval_request_history テーブルの 1 件のレコードは、updated_by_m_account_type テーブルの特定の 1 件のレコードに属します（外部キーは t_check_sheet_approval_request_history 側にあります）。
+
+==== TCheckSheetRecord.php ====
+t_check_sheet_record テーブルの 1 件のレコードは、t_production_process_order_group テーブルの特定の 1 件のレコードに属します（外部キーは t_check_sheet_record 側にあります）。
+t_check_sheet_record テーブルの 1 件のレコードは、m_check_sheet_status テーブルの特定の 1 件のレコードに属します（外部キーは t_check_sheet_record 側にあります）。
+t_check_sheet_record テーブルの 1 件のレコードは、created_by_m_account_type テーブルの特定の 1 件のレコードに属します（外部キーは t_check_sheet_record 側にあります）。
+t_check_sheet_record テーブルの 1 件のレコードは、updated_by_m_account_type テーブルの特定の 1 件のレコードに属します（外部キーは t_check_sheet_record 側にあります）。
+t_check_sheet_record テーブルの 1 件のレコードは、t_check_sheet_approval_requests テーブルの複数のレコードを持つことができます。
+t_check_sheet_record テーブルの 1 件のレコードは、t_check_sheet_record_details テーブルの複数のレコードを持つことができます。
+
+==== TCheckSheetRecordDetail.php ====
+t_check_sheet_record_detail テーブルの 1 件のレコードは、t_check_sheet_record テーブルの特定の 1 件のレコードに属します（外部キーは t_check_sheet_record_detail 側にあります）。
+t_check_sheet_record_detail テーブルの 1 件のレコードは、m_check_sheet_detail テーブルの特定の 1 件のレコードに属します（外部キーは t_check_sheet_record_detail 側にあります）。
+t_check_sheet_record_detail テーブルの 1 件のレコードは、m_check_sheet_detail_type テーブルの特定の 1 件のレコードに属します（外部キーは t_check_sheet_record_detail 側にあります）。
+t_check_sheet_record_detail テーブルの 1 件のレコードは、created_by_m_account_type テーブルの特定の 1 件のレコードに属します（外部キーは t_check_sheet_record_detail 側にあります）。
+t_check_sheet_record_detail テーブルの 1 件のレコードは、updated_by_m_account_type テーブルの特定の 1 件のレコードに属します（外部キーは t_check_sheet_record_detail 側にあります）。
+
+==== TConfigurationPartDetail.php ====
+t_configuration_part_detail テーブルの 1 件のレコードは、t_in_house_production テーブルの特定の 1 件のレコードに属します（外部キーは t_configuration_part_detail 側にあります）。
+t_configuration_part_detail テーブルの 1 件のレコードは、m_part テーブルの特定の 1 件のレコードに属します（外部キーは t_configuration_part_detail 側にあります）。
+t_configuration_part_detail テーブルの 1 件のレコードは、created_by_m_account_type テーブルの特定の 1 件のレコードに属します（外部キーは t_configuration_part_detail 側にあります）。
+t_configuration_part_detail テーブルの 1 件のレコードは、updated_by_m_account_type テーブルの特定の 1 件のレコードに属します（外部キーは t_configuration_part_detail 側にあります）。
+t_configuration_part_detail テーブルの 1 件のレコードは、allocation テーブルの 1 件のレコードを持ちます。
+t_configuration_part_detail テーブルの 1 件のレコードは、t_in_house_production_relations テーブルの複数のレコードを持つことができます。
+
+==== TContract.php ====
+t_contract テーブルの 1 件のレコードは、ship_owner_m_customer テーブルの特定の 1 件のレコードに属します（外部キーは t_contract 側にあります）。
+t_contract テーブルの 1 件のレコードは、engine_maker_m_customer テーブルの特定の 1 件のレコードに属します（外部キーは t_contract 側にあります）。
+t_contract テーブルの 1 件のレコードは、end_user_m_customer テーブルの特定の 1 件のレコードに属します（外部キーは t_contract 側にあります）。
+t_contract テーブルの 1 件のレコードは、noc_m_customer テーブルの特定の 1 件のレコードに属します（外部キーは t_contract 側にあります）。
+t_contract テーブルの 1 件のレコードは、m_liquid_type テーブルの特定の 1 件のレコードに属します（外部キーは t_contract 側にあります）。
+t_contract テーブルの 1 件のレコードは、previous_t_contract テーブルの特定の 1 件のレコードに属します（外部キーは t_contract 側にあります）。
+t_contract テーブルの 1 件のレコードは、machine_t_contract テーブルの特定の 1 件のレコードに属します（外部キーは t_contract 側にあります）。
+t_contract テーブルの 1 件のレコードは、m_sales_division テーブルの特定の 1 件のレコードに属します（外部キーは t_contract 側にあります）。
+t_contract テーブルの 1 件のレコードは、created_by_m_account_type テーブルの特定の 1 件のレコードに属します（外部キーは t_contract 側にあります）。
+t_contract テーブルの 1 件のレコードは、updated_by_m_account_type テーブルの特定の 1 件のレコードに属します（外部キーは t_contract 側にあります）。
+t_contract テーブルの 1 件のレコードは、m_ship テーブルの特定の 1 件のレコードに属します（外部キーは t_contract 側にあります）。
+t_contract テーブルの 1 件のレコードは、m_factory_category テーブルの特定の 1 件のレコードに属します（外部キーは t_contract 側にあります）。
+t_contract テーブルの 1 件のレコードは、m_equipment テーブルの特定の 1 件のレコードに属します（外部キーは t_contract 側にあります）。
+t_contract テーブルの 1 件のレコードは、t_contract_files テーブルの複数のレコードを持つことができます。
+t_contract テーブルの 1 件のレコードは、t_drawing_approval_requests テーブルの複数のレコードを持つことができます。
+t_contract テーブルの 1 件のレコードは、t_machine_returns テーブルの複数のレコードを持つことができます。
+t_contract テーブルの 1 件のレコードは、t_maintenance テーブルの 1 件のレコードを持ちます。
+t_contract テーブルの 1 件のレコードは、t_maintenance_works テーブルの複数のレコードを持つことができます。
+t_contract テーブルの 1 件のレコードは、t_orders テーブルの複数のレコードを持つことができます。
+t_contract テーブルの 1 件のレコードは、first_order テーブルの 1 件のレコードを持ちます。
+
+==== TContractFile.php ====
+t_contract_file テーブルの 1 件のレコードは、t_contract テーブルの特定の 1 件のレコードに属します（外部キーは t_contract_file 側にあります）。
+t_contract_file テーブルの 1 件のレコードは、t_order テーブルの特定の 1 件のレコードに属します（外部キーは t_contract_file 側にあります）。
+t_contract_file テーブルの 1 件のレコードは、created_by_m_account_type テーブルの特定の 1 件のレコードに属します（外部キーは t_contract_file 側にあります）。
+t_contract_file テーブルの 1 件のレコードは、updated_by_m_account_type テーブルの特定の 1 件のレコードに属します（外部キーは t_contract_file 側にあります）。
+
+==== TDesignProcessGroup.php ====
+不明なリレーション種別です。
+t_design_process_group テーブルの 1 件のレコードは、m_process_type テーブルの特定の 1 件のレコードに属します（外部キーは t_design_process_group 側にあります）。
+t_design_process_group テーブルの 1 件のレコードは、created_by_m_account_type テーブルの特定の 1 件のレコードに属します（外部キーは t_design_process_group 側にあります）。
+t_design_process_group テーブルの 1 件のレコードは、updated_by_m_account_type テーブルの特定の 1 件のレコードに属します（外部キーは t_design_process_group 側にあります）。
+t_design_process_group テーブルの 1 件のレコードは、design_t_in_house_productions テーブルの複数のレコードと多対多の関係を持ちます（中間テーブルを介します）。
+t_design_process_group テーブルの 1 件のレコードは、t_design_process_group_drawing_files テーブルの複数のレコードを持つことができます。
+t_design_process_group テーブルの 1 件のレコードは、t_design_process_orders テーブルの複数のレコードを持つことができます。
+t_design_process_group テーブルの 1 件のレコードは、t_drawing_approval_requests テーブルの複数のレコードを持つことができます。
+不明なリレーション種別です。
+
+==== TDesignProcessGroupDrawingFile.php ====
+t_design_process_group_drawing_file テーブルの 1 件のレコードは、t_design_process_group テーブルの特定の 1 件のレコードに属します（外部キーは t_design_process_group_drawing_file 側にあります）。
+
+==== TDesignProcessOrder.php ====
+不明なリレーション種別です。
+t_design_process_order テーブルの 1 件のレコードは、t_design_process_group テーブルの特定の 1 件のレコードに属します（外部キーは t_design_process_order 側にあります）。
+t_design_process_order テーブルの 1 件のレコードは、m_process テーブルの特定の 1 件のレコードに属します（外部キーは t_design_process_order 側にあります）。
+t_design_process_order テーブルの 1 件のレコードは、m_design_process_order_status テーブルの特定の 1 件のレコードに属します（外部キーは t_design_process_order 側にあります）。
+t_design_process_order テーブルの 1 件のレコードは、created_by_m_account_type テーブルの特定の 1 件のレコードに属します（外部キーは t_design_process_order 側にあります）。
+t_design_process_order テーブルの 1 件のレコードは、updated_by_m_account_type テーブルの特定の 1 件のレコードに属します（外部キーは t_design_process_order 側にあります）。
+t_design_process_order テーブルの 1 件のレコードは、m_employees テーブルの複数のレコードと多対多の関係を持ちます（中間テーブルを介します）。
+不明なリレーション種別です。
+
+==== TDrawingApprovalRequest.php ====
+不明なリレーション種別です。
+t_drawing_approval_request テーブルの 1 件のレコードは、t_design_process_group テーブルの特定の 1 件のレコードに属します（外部キーは t_drawing_approval_request 側にあります）。
+t_drawing_approval_request テーブルの 1 件のレコードは、m_production_number テーブルの特定の 1 件のレコードに属します（外部キーは t_drawing_approval_request 側にあります）。
+t_drawing_approval_request テーブルの 1 件のレコードは、m_drawing_approval_status テーブルの特定の 1 件のレコードに属します（外部キーは t_drawing_approval_request 側にあります）。
+t_drawing_approval_request テーブルの 1 件のレコードは、t_contract テーブルの特定の 1 件のレコードに属します（外部キーは t_drawing_approval_request 側にあります）。
+t_drawing_approval_request テーブルの 1 件のレコードは、created_by_m_account_type テーブルの特定の 1 件のレコードに属します（外部キーは t_drawing_approval_request 側にあります）。
+t_drawing_approval_request テーブルの 1 件のレコードは、updated_by_m_account_type テーブルの特定の 1 件のレコードに属します（外部キーは t_drawing_approval_request 側にあります）。
+t_drawing_approval_request テーブルの 1 件のレコードは、t_drawing_approval_request_histories テーブルの複数のレコードを持つことができます。
+t_drawing_approval_request テーブルの 1 件のレコードは、created_by テーブルの特定の 1 件のレコードに属します（外部キーは t_drawing_approval_request 側にあります）。
+
+==== TDrawingApprovalRequestHistory.php ====
+t_drawing_approval_request_history テーブルの 1 件のレコードは、t_drawing_approval_request テーブルの特定の 1 件のレコードに属します（外部キーは t_drawing_approval_request_history 側にあります）。
+t_drawing_approval_request_history テーブルの 1 件のレコードは、m_employee テーブルの特定の 1 件のレコードに属します（外部キーは t_drawing_approval_request_history 側にあります）。
+t_drawing_approval_request_history テーブルの 1 件のレコードは、m_drawing_approval_status テーブルの特定の 1 件のレコードに属します（外部キーは t_drawing_approval_request_history 側にあります）。
+t_drawing_approval_request_history テーブルの 1 件のレコードは、created_by_m_account_type テーブルの特定の 1 件のレコードに属します（外部キーは t_drawing_approval_request_history 側にあります）。
+t_drawing_approval_request_history テーブルの 1 件のレコードは、updated_by_m_account_type テーブルの特定の 1 件のレコードに属します（外部キーは t_drawing_approval_request_history 側にあります）。
+
+==== TEmployeeSchedule.php ====
+t_employee_schedule テーブルの 1 件のレコードは、m_schedule_type テーブルの特定の 1 件のレコードに属します（外部キーは t_employee_schedule 側にあります）。
+t_employee_schedule テーブルの 1 件のレコードは、created_by_m_account_type テーブルの特定の 1 件のレコードに属します（外部キーは t_employee_schedule 側にあります）。
+t_employee_schedule テーブルの 1 件のレコードは、updated_by_m_account_type テーブルの特定の 1 件のレコードに属します（外部キーは t_employee_schedule 側にあります）。
+t_employee_schedule テーブルの 1 件のレコードは、m_employees テーブルの複数のレコードと多対多の関係を持ちます（中間テーブルを介します）。
+
+==== TEstimate.php ====
+t_estimate テーブルの 1 件のレコードは、m_part テーブルの特定の 1 件のレコードに属します（外部キーは t_estimate 側にあります）。
+t_estimate テーブルの 1 件のレコードは、m_delivery_destination テーブルの特定の 1 件のレコードに属します（外部キーは t_estimate 側にあります）。
+t_estimate テーブルの 1 件のレコードは、m_delivery_method テーブルの特定の 1 件のレコードに属します（外部キーは t_estimate 側にあります）。
+t_estimate テーブルの 1 件のレコードは、m_employee テーブルの特定の 1 件のレコードに属します（外部キーは t_estimate 側にあります）。
+t_estimate テーブルの 1 件のレコードは、m_estimate_status テーブルの特定の 1 件のレコードに属します（外部キーは t_estimate 側にあります）。
+t_estimate テーブルの 1 件のレコードは、created_by_m_account_type テーブルの特定の 1 件のレコードに属します（外部キーは t_estimate 側にあります）。
+t_estimate テーブルの 1 件のレコードは、updated_by_m_account_type テーブルの特定の 1 件のレコードに属します（外部キーは t_estimate 側にあります）。
+t_estimate テーブルの 1 件のレコードは、allocation テーブルの 1 件のレコードを持ちます。
+t_estimate テーブルの 1 件のレコードは、t_estimate_deliveries テーブルの複数のレコードを持つことができます。
+t_estimate テーブルの 1 件のレコードは、t_purchase_orders テーブルの複数のレコードを持つことができます。
+t_estimate テーブルの 1 件のレコードは、t_estimate_suppliers テーブルの複数のレコードを持つことができます。
+
+==== TEstimateDelivery.php ====
+t_estimate_delivery テーブルの 1 件のレコードは、t_estimate テーブルの特定の 1 件のレコードに属します（外部キーは t_estimate_delivery 側にあります）。
+t_estimate_delivery テーブルの 1 件のレコードは、created_by_m_account_type テーブルの特定の 1 件のレコードに属します（外部キーは t_estimate_delivery 側にあります）。
+t_estimate_delivery テーブルの 1 件のレコードは、updated_by_m_account_type テーブルの特定の 1 件のレコードに属します（外部キーは t_estimate_delivery 側にあります）。
+t_estimate_delivery テーブルの 1 件のレコードは、t_estimate_supplier_deliveries テーブルの複数のレコードを持つことができます。
+
+==== TEstimateSupplier.php ====
+t_estimate_supplier テーブルの 1 件のレコードは、t_estimate テーブルの特定の 1 件のレコードに属します（外部キーは t_estimate_supplier 側にあります）。
+t_estimate_supplier テーブルの 1 件のレコードは、m_supplier テーブルの特定の 1 件のレコードに属します（外部キーは t_estimate_supplier 側にあります）。
+t_estimate_supplier テーブルの 1 件のレコードは、t_estimate_supplier_deliveries テーブルの複数のレコードを持つことができます。
+t_estimate_supplier テーブルの 1 件のレコードは、created_by_m_account_type テーブルの特定の 1 件のレコードに属します（外部キーは t_estimate_supplier 側にあります）。
+t_estimate_supplier テーブルの 1 件のレコードは、updated_by_m_account_type テーブルの特定の 1 件のレコードに属します（外部キーは t_estimate_supplier 側にあります）。
+
+==== TEstimateSupplierDelivery.php ====
+t_estimate_supplier_delivery テーブルの 1 件のレコードは、t_estimate_supplier テーブルの特定の 1 件のレコードに属します（外部キーは t_estimate_supplier_delivery 側にあります）。
+t_estimate_supplier_delivery テーブルの 1 件のレコードは、t_estimate_delivery テーブルの特定の 1 件のレコードに属します（外部キーは t_estimate_supplier_delivery 側にあります）。
+t_estimate_supplier_delivery テーブルの 1 件のレコードは、created_by_m_account_type テーブルの特定の 1 件のレコードに属します（外部キーは t_estimate_supplier_delivery 側にあります）。
+t_estimate_supplier_delivery テーブルの 1 件のレコードは、updated_by_m_account_type テーブルの特定の 1 件のレコードに属します（外部キーは t_estimate_supplier_delivery 側にあります）。
+
+==== TExternalAccountRecord.php ====
+t_external_account_record テーブルの 1 件のレコードは、m_external_account テーブルの特定の 1 件のレコードに属します（外部キーは t_external_account_record 側にあります）。
+t_external_account_record テーブルの 1 件のレコードは、m_external_account_status テーブルの特定の 1 件のレコードに属します（外部キーは t_external_account_record 側にあります）。
+t_external_account_record テーブルの 1 件のレコードは、m_employee テーブルの特定の 1 件のレコードに属します（外部キーは t_external_account_record 側にあります）。
+t_external_account_record テーブルの 1 件のレコードは、created_by_m_account_type テーブルの特定の 1 件のレコードに属します（外部キーは t_external_account_record 側にあります）。
+t_external_account_record テーブルの 1 件のレコードは、updated_by_m_account_type テーブルの特定の 1 件のレコードに属します（外部キーは t_external_account_record 側にあります）。
+
+==== TInHouseProduction.php ====
+t_in_house_production テーブルの 1 件のレコードは、m_registration_method テーブルの特定の 1 件のレコードに属します（外部キーは t_in_house_production 側にあります）。
+t_in_house_production テーブルの 1 件のレコードは、m_instruction_work テーブルの特定の 1 件のレコードに属します（外部キーは t_in_house_production 側にあります）。
+t_in_house_production テーブルの 1 件のレコードは、m_in_house_production_status テーブルの特定の 1 件のレコードに属します（外部キーは t_in_house_production 側にあります）。
+t_in_house_production テーブルの 1 件のレコードは、created_by_m_account_type テーブルの特定の 1 件のレコードに属します（外部キーは t_in_house_production 側にあります）。
+t_in_house_production テーブルの 1 件のレコードは、updated_by_m_account_type テーブルの特定の 1 件のレコードに属します（外部キーは t_in_house_production 側にあります）。
+t_in_house_production テーブルの 1 件のレコードは、design_t_design_process_groups テーブルの複数のレコードと多対多の関係を持ちます（中間テーブルを介します）。
+t_in_house_production テーブルの 1 件のレコードは、m_production_numbers テーブルの複数のレコードを持つことができます。
+t_in_house_production テーブルの 1 件のレコードは、production_t_production_process_groups テーブルの複数のレコードと多対多の関係を持ちます（中間テーブルを介します）。
+t_in_house_production テーブルの 1 件のレコードは、t_configuration_part_details テーブルの複数のレコードを持つことができます。
+t_in_house_production テーブルの 1 件のレコードは、m_part テーブルの特定の 1 件のレコードに属します（外部キーは t_in_house_production 側にあります）。
+t_in_house_production テーブルの 1 件のレコードは、parent_products テーブルの複数のレコードと多対多の関係を持ちます（中間テーブルを介します）。
+t_in_house_production テーブルの 1 件のレコードは、child_products テーブルの複数のレコードと多対多の関係を持ちます（中間テーブルを介します）。
+
+==== TInHouseProductionRelation.php ====
+t_in_house_production_relation テーブルの 1 件のレコードは、child_product テーブルの複数のレコードと多対多の関係を持ちます（中間テーブルを介します）。
+t_in_house_production_relation テーブルの 1 件のレコードは、parent_product テーブルの複数のレコードと多対多の関係を持ちます（中間テーブルを介します）。
+t_in_house_production_relation テーブルの 1 件のレコードは、parent_configuration_part_detail テーブルの複数のレコードと多対多の関係を持ちます（中間テーブルを介します）。
+
+==== TInventory.php ====
+t_inventory テーブルの 1 件のレコードは、m_rack テーブルの特定の 1 件のレコードに属します（外部キーは t_inventory 側にあります）。
+t_inventory テーブルの 1 件のレコードは、m_part テーブルの特定の 1 件のレコードに属します（外部キーは t_inventory 側にあります）。
+t_inventory テーブルの 1 件のレコードは、created_by_m_account_type テーブルの特定の 1 件のレコードに属します（外部キーは t_inventory 側にあります）。
+t_inventory テーブルの 1 件のレコードは、updated_by_m_account_type テーブルの特定の 1 件のレコードに属します（外部キーは t_inventory 側にあります）。
+t_inventory テーブルの 1 件のレコードは、m_smartmat テーブルの特定の 1 件のレコードに属します（外部キーは t_inventory 側にあります）。
+t_inventory テーブルの 1 件のレコードは、m_stock_history_type テーブルの特定の 1 件のレコードに属します（外部キーは t_inventory 側にあります）。
+t_inventory テーブルの 1 件のレコードは、m_stock_change_reason テーブルの特定の 1 件のレコードに属します（外部キーは t_inventory 側にあります）。
+
+==== TLocationPartReplenishmentPoint.php ====
+t_location_part_replenishment_point テーブルの 1 件のレコードは、m_part テーブルの特定の 1 件のレコードに属します（外部キーは t_location_part_replenishment_point 側にあります）。
+t_location_part_replenishment_point テーブルの 1 件のレコードは、m_location テーブルの特定の 1 件のレコードに属します（外部キーは t_location_part_replenishment_point 側にあります）。
+t_location_part_replenishment_point テーブルの 1 件のレコードは、m_replenishment_type テーブルの特定の 1 件のレコードに属します（外部キーは t_location_part_replenishment_point 側にあります）。
+t_location_part_replenishment_point テーブルの 1 件のレコードは、created_by_m_account_type テーブルの特定の 1 件のレコードに属します（外部キーは t_location_part_replenishment_point 側にあります）。
+t_location_part_replenishment_point テーブルの 1 件のレコードは、updated_by_m_account_type テーブルの特定の 1 件のレコードに属します（外部キーは t_location_part_replenishment_point 側にあります）。
+
+==== TMachineReturn.php ====
+t_machine_return テーブルの 1 件のレコードは、t_contract テーブルの特定の 1 件のレコードに属します（外部キーは t_machine_return 側にあります）。
+t_machine_return テーブルの 1 件のレコードは、m_location テーブルの特定の 1 件のレコードに属します（外部キーは t_machine_return 側にあります）。
+t_machine_return テーブルの 1 件のレコードは、m_transport_method_type テーブルの特定の 1 件のレコードに属します（外部キーは t_machine_return 側にあります）。
+t_machine_return テーブルの 1 件のレコードは、m_car_type テーブルの特定の 1 件のレコードに属します（外部キーは t_machine_return 側にあります）。
+t_machine_return テーブルの 1 件のレコードは、t_order_detail テーブルの特定の 1 件のレコードに属します（外部キーは t_machine_return 側にあります）。
+t_machine_return テーブルの 1 件のレコードは、created_by_m_account_type テーブルの特定の 1 件のレコードに属します（外部キーは t_machine_return 側にあります）。
+t_machine_return テーブルの 1 件のレコードは、updated_by_m_account_type テーブルの特定の 1 件のレコードに属します（外部キーは t_machine_return 側にあります）。
+t_machine_return テーブルの 1 件のレコードは、m_production_numbers テーブルの複数のレコードと多対多の関係を持ちます（中間テーブルを介します）。
+t_machine_return テーブルの 1 件のレコードは、m_transport_company テーブルの特定の 1 件のレコードに属します（外部キーは t_machine_return 側にあります）。
+
+==== TMaintenance.php ====
+不明なリレーション種別です。
+t_maintenance テーブルの 1 件のレコードは、t_contract テーブルの特定の 1 件のレコードに属します（外部キーは t_maintenance 側にあります）。
+t_maintenance テーブルの 1 件のレコードは、t_order テーブルの特定の 1 件のレコードに属します（外部キーは t_maintenance 側にあります）。
+t_maintenance テーブルの 1 件のレコードは、m_visit_cycle テーブルの特定の 1 件のレコードに属します（外部キーは t_maintenance 側にあります）。
+t_maintenance テーブルの 1 件のレコードは、m_maintenance_type テーブルの特定の 1 件のレコードに属します（外部キーは t_maintenance 側にあります）。
+t_maintenance テーブルの 1 件のレコードは、created_by_m_account_type テーブルの特定の 1 件のレコードに属します（外部キーは t_maintenance 側にあります）。
+t_maintenance テーブルの 1 件のレコードは、updated_by_m_account_type テーブルの特定の 1 件のレコードに属します（外部キーは t_maintenance 側にあります）。
+t_maintenance テーブルの 1 件のレコードは、m_employees テーブルの複数のレコードと多対多の関係を持ちます（中間テーブルを介します）。
+t_maintenance テーブルの 1 件のレコードは、t_maintenance_works テーブルの複数のレコードを持つことができます。
+
+==== TMaintenanceWork.php ====
+不明なリレーション種別です。
+t_maintenance_work テーブルの 1 件のレコードは、t_maintenance テーブルの特定の 1 件のレコードに属します（外部キーは t_maintenance_work 側にあります）。
+t_maintenance_work テーブルの 1 件のレコードは、t_contract テーブルの特定の 1 件のレコードに属します（外部キーは t_maintenance_work 側にあります）。
+t_maintenance_work テーブルの 1 件のレコードは、m_maintenance_work_status テーブルの特定の 1 件のレコードに属します（外部キーは t_maintenance_work 側にあります）。
+t_maintenance_work テーブルの 1 件のレコードは、m_maintenance_type テーブルの特定の 1 件のレコードに属します（外部キーは t_maintenance_work 側にあります）。
+t_maintenance_work テーブルの 1 件のレコードは、created_by_m_account_type テーブルの特定の 1 件のレコードに属します（外部キーは t_maintenance_work 側にあります）。
+t_maintenance_work テーブルの 1 件のレコードは、updated_by_m_account_type テーブルの特定の 1 件のレコードに属します（外部キーは t_maintenance_work 側にあります）。
+t_maintenance_work テーブルの 1 件のレコードは、m_employees テーブルの複数のレコードと多対多の関係を持ちます（中間テーブルを介します）。
+t_maintenance_work テーブルの 1 件のレコードは、m_company_cars テーブルの複数のレコードと多対多の関係を持ちます（中間テーブルを介します）。
+t_maintenance_work テーブルの 1 件のレコードは、t_maintenance_work_records テーブルの複数のレコードを持つことができます。
+t_maintenance_work テーブルの 1 件のレコードは、employee_maintenance_works テーブルの複数のレコードを持つことができます。
+
+==== TMaintenanceWorkRecord.php ====
+t_maintenance_work_record テーブルの 1 件のレコードは、t_maintenance_work テーブルの特定の 1 件のレコードに属します（外部キーは t_maintenance_work_record 側にあります）。
+t_maintenance_work_record テーブルの 1 件のレコードは、m_employee テーブルの特定の 1 件のレコードに属します（外部キーは t_maintenance_work_record 側にあります）。
+t_maintenance_work_record テーブルの 1 件のレコードは、m_employees テーブルの複数のレコードと多対多の関係を持ちます（中間テーブルを介します）。
+t_maintenance_work_record テーブルの 1 件のレコードは、created_by_m_account_type テーブルの特定の 1 件のレコードに属します（外部キーは t_maintenance_work_record 側にあります）。
+t_maintenance_work_record テーブルの 1 件のレコードは、updated_by_m_account_type テーブルの特定の 1 件のレコードに属します（外部キーは t_maintenance_work_record 側にあります）。
+t_maintenance_work_record テーブルの 1 件のレコードは、t_maintenance_work_record_pause_times テーブルの複数のレコードを持つことができます。
+
+==== TMaintenanceWorkRecordPauseTime.php ====
+t_maintenance_work_record_pause_time テーブルの 1 件のレコードは、t_maintenance_work_record テーブルの特定の 1 件のレコードに属します（外部キーは t_maintenance_work_record_pause_time 側にあります）。
+t_maintenance_work_record_pause_time テーブルの 1 件のレコードは、created_by_m_account_type テーブルの特定の 1 件のレコードに属します（外部キーは t_maintenance_work_record_pause_time 側にあります）。
+t_maintenance_work_record_pause_time テーブルの 1 件のレコードは、updated_by_m_account_type テーブルの特定の 1 件のレコードに属します（外部キーは t_maintenance_work_record_pause_time 側にあります）。
+
+==== TNotice.php ====
+t_notice テーブルの 1 件のレコードは、m_employee テーブルの特定の 1 件のレコードに属します（外部キーは t_notice 側にあります）。
+t_notice テーブルの 1 件のレコードは、created_by_m_account_type テーブルの特定の 1 件のレコードに属します（外部キーは t_notice 側にあります）。
+t_notice テーブルの 1 件のレコードは、updated_by_m_account_type テーブルの特定の 1 件のレコードに属します（外部キーは t_notice 側にあります）。
+t_notice テーブルの 1 件のレコードは、m_employees テーブルの複数のレコードと多対多の関係を持ちます（中間テーブルを介します）。
+
+==== TOrder.php ====
+t_order テーブルの 1 件のレコードは、t_contract テーブルの特定の 1 件のレコードに属します（外部キーは t_order 側にあります）。
+t_order テーブルの 1 件のレコードは、created_by_m_account_type テーブルの特定の 1 件のレコードに属します（外部キーは t_order 側にあります）。
+t_order テーブルの 1 件のレコードは、updated_by_m_account_type テーブルの特定の 1 件のレコードに属します（外部キーは t_order 側にあります）。
+t_order テーブルの 1 件のレコードは、m_order_status テーブルの特定の 1 件のレコードに属します（外部キーは t_order 側にあります）。
+t_order テーブルの 1 件のレコードは、m_sales_division テーブルの特定の 1 件のレコードに属します（外部キーは t_order 側にあります）。
+t_order テーブルの 1 件のレコードは、m_location テーブルの特定の 1 件のレコードに属します（外部キーは t_order 側にあります）。
+t_order テーブルの 1 件のレコードは、m_employee テーブルの特定の 1 件のレコードに属します（外部キーは t_order 側にあります）。
+t_order テーブルの 1 件のレコードは、other_invoice_to_m_customer テーブルの特定の 1 件のレコードに属します（外部キーは t_order 側にあります）。
+t_order テーブルの 1 件のレコードは、m_customer_persons テーブルの複数のレコードと多対多の関係を持ちます（中間テーブルを介します）。
+t_order テーブルの 1 件のレコードは、t_billings テーブルの複数のレコードを持つことができます。
+t_order テーブルの 1 件のレコードは、t_maintenance テーブルの 1 件のレコードを持ちます。
+t_order テーブルの 1 件のレコードは、t_order_details テーブルの複数のレコードを持つことができます。
+t_order テーブルの 1 件のレコードは、t_order_other_items テーブルの複数のレコードを持つことができます。
+t_order テーブルの 1 件のレコードは、m_invoice_send_method テーブルの特定の 1 件のレコードに属します（外部キーは t_order 側にあります）。
+t_order テーブルの 1 件のレコードは、m_tax_type テーブルの特定の 1 件のレコードに属します（外部キーは t_order 側にあります）。
+t_order テーブルの 1 件のレコードは、m_tax_rate テーブルの特定の 1 件のレコードに属します（外部キーは t_order 側にあります）。
+t_order テーブルの 1 件のレコードは、invoice_to_m_customer_type テーブルの特定の 1 件のレコードに属します（外部キーは t_order 側にあります）。
+t_order テーブルの 1 件のレコードは、delivery_note_to_m_customer_type テーブルの特定の 1 件のレコードに属します（外部キーは t_order 側にあります）。
+t_order テーブルの 1 件のレコードは、t_order_shippings テーブルの複数のレコードを持つことができます。
+t_order テーブルの 1 件のレコードは、in_progress_t_order_shipping テーブルの 1 件のレコードを持ちます。
+t_order テーブルの 1 件のレコードは、main_order_detail テーブルの 1 件のレコードを持ちます。
+t_order テーブルの 1 件のレコードは、t_shippings テーブルの複数のレコードを持つことができます。
+t_order テーブルの 1 件のレコードは、case_mark_file テーブルの 1 件のレコードを持ちます。
+t_order テーブルの 1 件のレコードは、invoice_and_delivery_note_to_m_customer_type テーブルの特定の 1 件のレコードに属します（外部キーは t_order 側にあります）。
+t_order テーブルの 1 件のレコードは、m_round_type テーブルの特定の 1 件のレコードに属します（外部キーは t_order 側にあります）。
+t_order テーブルの 1 件のレコードは、t_maintenances テーブルの複数のレコードを持つことができます。
+
+==== TOrderDetail.php ====
+不明なリレーション種別です。
+不明なリレーション種別です。
+不明なリレーション種別です。
+不明なリレーション種別です。
+t_order_detail テーブルの 1 件のレコードは、t_order テーブルの特定の 1 件のレコードに属します（外部キーは t_order_detail 側にあります）。
+t_order_detail テーブルの 1 件のレコードは、m_part テーブルの特定の 1 件のレコードに属します（外部キーは t_order_detail 側にあります）。
+t_order_detail テーブルの 1 件のレコードは、m_production_number テーブルの特定の 1 件のレコードに属します（外部キーは t_order_detail 側にあります）。
+t_order_detail テーブルの 1 件のレコードは、m_delivery_destination テーブルの特定の 1 件のレコードに属します（外部キーは t_order_detail 側にあります）。
+t_order_detail テーブルの 1 件のレコードは、m_sales_division テーブルの特定の 1 件のレコードに属します（外部キーは t_order_detail 側にあります）。
+t_order_detail テーブルの 1 件のレコードは、created_by_m_account_type テーブルの特定の 1 件のレコードに属します（外部キーは t_order_detail 側にあります）。
+t_order_detail テーブルの 1 件のレコードは、updated_by_m_account_type テーブルの特定の 1 件のレコードに属します（外部キーは t_order_detail 側にあります）。
+t_order_detail テーブルの 1 件のレコードは、allocation テーブルの 1 件のレコードを持ちます。
+t_order_detail テーブルの 1 件のレコードは、t_machine_return テーブルの 1 件のレコードを持ちます。
+t_order_detail テーブルの 1 件のレコードは、t_shipping_details テーブルの複数のレコードを持つことができます。
+t_order_detail テーブルの 1 件のレコードは、t_shipping_detail テーブルの 1 件のレコードを持ちます。
+
+==== TOrderOtherItem.php ====
+不明なリレーション種別です。
+不明なリレーション種別です。
+不明なリレーション種別です。
+t_order_other_item テーブルの 1 件のレコードは、t_order テーブルの特定の 1 件のレコードに属します（外部キーは t_order_other_item 側にあります）。
+t_order_other_item テーブルの 1 件のレコードは、m_sales_division テーブルの特定の 1 件のレコードに属します（外部キーは t_order_other_item 側にあります）。
+t_order_other_item テーブルの 1 件のレコードは、m_unit_type テーブルの特定の 1 件のレコードに属します（外部キーは t_order_other_item 側にあります）。
+t_order_other_item テーブルの 1 件のレコードは、created_by_m_account_type テーブルの特定の 1 件のレコードに属します（外部キーは t_order_other_item 側にあります）。
+t_order_other_item テーブルの 1 件のレコードは、updated_by_m_account_type テーブルの特定の 1 件のレコードに属します（外部キーは t_order_other_item 側にあります）。
+t_order_other_item テーブルの 1 件のレコードは、m_overhaul_type テーブルの特定の 1 件のレコードに属します（外部キーは t_order_other_item 側にあります）。
+
+==== TOrderShipping.php ====
+t_order_shipping テーブルの 1 件のレコードは、t_order テーブルの特定の 1 件のレコードに属します（外部キーは t_order_shipping 側にあります）。
+t_order_shipping テーブルの 1 件のレコードは、ship_to_m_delivery_destination テーブルの特定の 1 件のレコードに属します（外部キーは t_order_shipping 側にあります）。
+t_order_shipping テーブルの 1 件のレコードは、ship_from_m_delivery_destination テーブルの特定の 1 件のレコードに属します（外部キーは t_order_shipping 側にあります）。
+t_order_shipping テーブルの 1 件のレコードは、ship_to_m_delivery_destination_m_honorific テーブルの特定の 1 件のレコードに属します（外部キーは t_order_shipping 側にあります）。
+t_order_shipping テーブルの 1 件のレコードは、m_transport_method_type テーブルの特定の 1 件のレコードに属します（外部キーは t_order_shipping 側にあります）。
+t_order_shipping テーブルの 1 件のレコードは、m_transport_company テーブルの特定の 1 件のレコードに属します（外部キーは t_order_shipping 側にあります）。
+t_order_shipping テーブルの 1 件のレコードは、m_delivery_specific_time テーブルの特定の 1 件のレコードに属します（外部キーは t_order_shipping 側にあります）。
+t_order_shipping テーブルの 1 件のレコードは、m_shipping_status テーブルの特定の 1 件のレコードに属します（外部キーは t_order_shipping 側にあります）。
+t_order_shipping テーブルの 1 件のレコードは、created_by_m_account_type テーブルの特定の 1 件のレコードに属します（外部キーは t_order_shipping 側にあります）。
+t_order_shipping テーブルの 1 件のレコードは、updated_by_m_account_type テーブルの特定の 1 件のレコードに属します（外部キーは t_order_shipping 側にあります）。
+
+==== TPartFile.php ====
+t_part_file テーブルの 1 件のレコードは、m_part テーブルの特定の 1 件のレコードに属します（外部キーは t_part_file 側にあります）。
+t_part_file テーブルの 1 件のレコードは、m_part_file_type テーブルの特定の 1 件のレコードに属します（外部キーは t_part_file 側にあります）。
+t_part_file テーブルの 1 件のレコードは、created_by_m_account_type テーブルの特定の 1 件のレコードに属します（外部キーは t_part_file 側にあります）。
+t_part_file テーブルの 1 件のレコードは、updated_by_m_account_type テーブルの特定の 1 件のレコードに属します（外部キーは t_part_file 側にあります）。
+
+==== TPicking.php ====
+t_picking テーブルの 1 件のレコードは、t_shipping テーブルの特定の 1 件のレコードに属します（外部キーは t_picking 側にあります）。
+t_picking テーブルの 1 件のレコードは、m_location テーブルの特定の 1 件のレコードに属します（外部キーは t_picking 側にあります）。
+t_picking テーブルの 1 件のレコードは、m_picking_usage_type テーブルの特定の 1 件のレコードに属します（外部キーは t_picking 側にあります）。
+t_picking テーブルの 1 件のレコードは、m_employee テーブルの特定の 1 件のレコードに属します（外部キーは t_picking 側にあります）。
+t_picking テーブルの 1 件のレコードは、t_production_process_group テーブルの特定の 1 件のレコードに属します（外部キーは t_picking 側にあります）。
+t_picking テーブルの 1 件のレコードは、m_production_number テーブルの特定の 1 件のレコードに属します（外部キーは t_picking 側にあります）。
+t_picking テーブルの 1 件のレコードは、created_by_m_account_type テーブルの特定の 1 件のレコードに属します（外部キーは t_picking 側にあります）。
+t_picking テーブルの 1 件のレコードは、updated_by_m_account_type テーブルの特定の 1 件のレコードに属します（外部キーは t_picking 側にあります）。
+t_picking テーブルの 1 件のレコードは、t_picking_boxes テーブルの複数のレコードを持つことができます。
+t_picking テーブルの 1 件のレコードは、t_production_picking_parts テーブルの複数のレコードを持つことができます。
+t_picking テーブルの 1 件のレコードは、t_shipping_picking_parts テーブルの複数のレコードを持つことができます。
+
+==== TPickingBox.php ====
+t_picking_box テーブルの 1 件のレコードは、t_picking テーブルの特定の 1 件のレコードに属します（外部キーは t_picking_box 側にあります）。
+t_picking_box テーブルの 1 件のレコードは、created_by_m_account_type テーブルの特定の 1 件のレコードに属します（外部キーは t_picking_box 側にあります）。
+t_picking_box テーブルの 1 件のレコードは、updated_by_m_account_type テーブルの特定の 1 件のレコードに属します（外部キーは t_picking_box 側にあります）。
+t_picking_box テーブルの 1 件のレコードは、t_shipping_picking_parts テーブルの複数のレコードと多対多の関係を持ちます（中間テーブルを介します）。
+
+==== TProductionNumberHistory.php ====
+t_production_number_history テーブルの 1 件のレコードは、m_production_number テーブルの特定の 1 件のレコードに属します（外部キーは t_production_number_history 側にあります）。
+t_production_number_history テーブルの 1 件のレコードは、created_by_m_account_type テーブルの特定の 1 件のレコードに属します（外部キーは t_production_number_history 側にあります）。
+t_production_number_history テーブルの 1 件のレコードは、updated_by_m_account_type テーブルの特定の 1 件のレコードに属します（外部キーは t_production_number_history 側にあります）。
+
+==== TProductionPickingPart.php ====
+t_production_picking_part テーブルの 1 件のレコードは、t_production_process_group テーブルの特定の 1 件のレコードに属します（外部キーは t_production_picking_part 側にあります）。
+t_production_picking_part テーブルの 1 件のレコードは、m_part テーブルの特定の 1 件のレコードに属します（外部キーは t_production_picking_part 側にあります）。
+t_production_picking_part テーブルの 1 件のレコードは、m_production_number テーブルの特定の 1 件のレコードに属します（外部キーは t_production_picking_part 側にあります）。
+t_production_picking_part テーブルの 1 件のレコードは、m_picking_status テーブルの特定の 1 件のレコードに属します（外部キーは t_production_picking_part 側にあります）。
+t_production_picking_part テーブルの 1 件のレコードは、t_picking テーブルの特定の 1 件のレコードに属します（外部キーは t_production_picking_part 側にあります）。
+t_production_picking_part テーブルの 1 件のレコードは、created_by_m_account_type テーブルの特定の 1 件のレコードに属します（外部キーは t_production_picking_part 側にあります）。
+t_production_picking_part テーブルの 1 件のレコードは、updated_by_m_account_type テーブルの特定の 1 件のレコードに属します（外部キーは t_production_picking_part 側にあります）。
+t_production_picking_part テーブルの 1 件のレコードは、t_production_picking_part_records テーブルの複数のレコードを持つことができます。
+
+==== TProductionPickingPartRecord.php ====
+t_production_picking_part_record テーブルの 1 件のレコードは、t_production_picking_part テーブルの特定の 1 件のレコードに属します（外部キーは t_production_picking_part_record 側にあります）。
+t_production_picking_part_record テーブルの 1 件のレコードは、m_rack テーブルの特定の 1 件のレコードに属します（外部キーは t_production_picking_part_record 側にあります）。
+t_production_picking_part_record テーブルの 1 件のレコードは、created_by_m_account_type テーブルの特定の 1 件のレコードに属します（外部キーは t_production_picking_part_record 側にあります）。
+t_production_picking_part_record テーブルの 1 件のレコードは、updated_by_m_account_type テーブルの特定の 1 件のレコードに属します（外部キーは t_production_picking_part_record 側にあります）。
+t_production_picking_part_record テーブルの 1 件のレコードは、created_by_m_employee テーブルの特定の 1 件のレコードに属します（外部キーは t_production_picking_part_record 側にあります）。
+
+==== TProductionProcessChange.php ====
+t_production_process_change テーブルの 1 件のレコードは、t_production_process_order テーブルの特定の 1 件のレコードに属します（外部キーは t_production_process_change 側にあります）。
+t_production_process_change テーブルの 1 件のレコードは、created_by_m_account_type テーブルの特定の 1 件のレコードに属します（外部キーは t_production_process_change 側にあります）。
+t_production_process_change テーブルの 1 件のレコードは、updated_by_m_account_type テーブルの特定の 1 件のレコードに属します（外部キーは t_production_process_change 側にあります）。
+t_production_process_change テーブルの 1 件のレコードは、t_production_process_change_logs テーブルの複数のレコードを持つことができます。
+
+==== TProductionProcessChangeLog.php ====
+t_production_process_change_log テーブルの 1 件のレコードは、t_production_process_change テーブルの特定の 1 件のレコードに属します（外部キーは t_production_process_change_log 側にあります）。
+t_production_process_change_log テーブルの 1 件のレコードは、m_employee テーブルの特定の 1 件のレコードに属します（外部キーは t_production_process_change_log 側にあります）。
+t_production_process_change_log テーブルの 1 件のレコードは、created_by_m_account_type テーブルの特定の 1 件のレコードに属します（外部キーは t_production_process_change_log 側にあります）。
+t_production_process_change_log テーブルの 1 件のレコードは、updated_by_m_account_type テーブルの特定の 1 件のレコードに属します（外部キーは t_production_process_change_log 側にあります）。
+
+==== TProductionProcessGroup.php ====
+不明なリレーション種別です。
+t_production_process_group テーブルの 1 件のレコードは、m_process_type テーブルの特定の 1 件のレコードに属します（外部キーは t_production_process_group 側にあります）。
+t_production_process_group テーブルの 1 件のレコードは、created_by_m_account_type テーブルの特定の 1 件のレコードに属します（外部キーは t_production_process_group 側にあります）。
+t_production_process_group テーブルの 1 件のレコードは、updated_by_m_account_type テーブルの特定の 1 件のレコードに属します（外部キーは t_production_process_group 側にあります）。
+t_production_process_group テーブルの 1 件のレコードは、t_pickings テーブルの複数のレコードを持つことができます。
+t_production_process_group テーブルの 1 件のレコードは、t_production_picking_parts テーブルの複数のレコードを持つことができます。
+t_production_process_group テーブルの 1 件のレコードは、t_production_process_orders テーブルの複数のレコードを持つことができます。
+t_production_process_group テーブルの 1 件のレコードは、t_production_rejects テーブルの複数のレコードを持つことができます。
+t_production_process_group テーブルの 1 件のレコードは、w_production_pickings テーブルの複数のレコードを持つことができます。
+t_production_process_group テーブルの 1 件のレコードは、production_t_in_house_productions テーブルの複数のレコードと多対多の関係を持ちます（中間テーブルを介します）。
+不明なリレーション種別です。
+
+==== TProductionProcessOrder.php ====
+不明なリレーション種別です。
+t_production_process_order テーブルの 1 件のレコードは、t_production_process_group テーブルの特定の 1 件のレコードに属します（外部キーは t_production_process_order 側にあります）。
+t_production_process_order テーブルの 1 件のレコードは、t_production_process_order_group テーブルの特定の 1 件のレコードに属します（外部キーは t_production_process_order 側にあります）。
+t_production_process_order テーブルの 1 件のレコードは、m_process テーブルの特定の 1 件のレコードに属します（外部キーは t_production_process_order 側にあります）。
+t_production_process_order テーブルの 1 件のレコードは、approval_m_employee テーブルの特定の 1 件のレコードに属します（外部キーは t_production_process_order 側にあります）。
+t_production_process_order テーブルの 1 件のレコードは、m_production_process_order_status テーブルの特定の 1 件のレコードに属します（外部キーは t_production_process_order 側にあります）。
+t_production_process_order テーブルの 1 件のレコードは、created_by_m_account_type テーブルの特定の 1 件のレコードに属します（外部キーは t_production_process_order 側にあります）。
+t_production_process_order テーブルの 1 件のレコードは、updated_by_m_account_type テーブルの特定の 1 件のレコードに属します（外部キーは t_production_process_order 側にあります）。
+t_production_process_order テーブルの 1 件のレコードは、m_employees テーブルの複数のレコードと多対多の関係を持ちます（中間テーブルを介します）。
+t_production_process_order テーブルの 1 件のレコードは、t_production_process_changes テーブルの複数のレコードを持つことができます。
+不明なリレーション種別です。
+
+==== TProductionProcessOrderGroup.php ====
+不明なリレーション種別です。
+t_production_process_order_group テーブルの 1 件のレコードは、created_by_m_account_type テーブルの特定の 1 件のレコードに属します（外部キーは t_production_process_order_group 側にあります）。
+t_production_process_order_group テーブルの 1 件のレコードは、updated_by_m_account_type テーブルの特定の 1 件のレコードに属します（外部キーは t_production_process_order_group 側にあります）。
+t_production_process_order_group テーブルの 1 件のレコードは、t_check_sheet_record テーブルの 1 件のレコードを持ちます。
+t_production_process_order_group テーブルの 1 件のレコードは、t_production_process_order_group_record テーブルの 1 件のレコードを持ちます。
+t_production_process_order_group テーブルの 1 件のレコードは、t_production_process_order_group_record_pause_times テーブルの複数のレコードを持つことができます。
+t_production_process_order_group テーブルの 1 件のレコードは、t_production_process_orders テーブルの複数のレコードを持つことができます。
+t_production_process_order_group テーブルの 1 件のレコードは、w_productions テーブルの複数のレコードを持つことができます。
+
+==== TProductionProcessOrderGroupRecord.php ====
+t_production_process_order_group_record テーブルの 1 件のレコードは、t_production_process_order_group テーブルの特定の 1 件のレコードに属します（外部キーは t_production_process_order_group_record 側にあります）。
+t_production_process_order_group_record テーブルの 1 件のレコードは、created_by_m_account_type テーブルの特定の 1 件のレコードに属します（外部キーは t_production_process_order_group_record 側にあります）。
+t_production_process_order_group_record テーブルの 1 件のレコードは、updated_by_m_account_type テーブルの特定の 1 件のレコードに属します（外部キーは t_production_process_order_group_record 側にあります）。
+
+==== TProductionProcessOrderGroupRecordPauseTime.php ====
+t_production_process_order_group_record_pause_time テーブルの 1 件のレコードは、t_production_process_order_group テーブルの特定の 1 件のレコードに属します（外部キーは t_production_process_order_group_record_pause_time 側にあります）。
+t_production_process_order_group_record_pause_time テーブルの 1 件のレコードは、created_by_m_account_type テーブルの特定の 1 件のレコードに属します（外部キーは t_production_process_order_group_record_pause_time 側にあります）。
+t_production_process_order_group_record_pause_time テーブルの 1 件のレコードは、updated_by_m_account_type テーブルの特定の 1 件のレコードに属します（外部キーは t_production_process_order_group_record_pause_time 側にあります）。
+
+==== TProductionReject.php ====
+t_production_reject テーブルの 1 件のレコードは、t_production_process_group テーブルの特定の 1 件のレコードに属します（外部キーは t_production_reject 側にあります）。
+t_production_reject テーブルの 1 件のレコードは、created_by_m_account_type テーブルの特定の 1 件のレコードに属します（外部キーは t_production_reject 側にあります）。
+t_production_reject テーブルの 1 件のレコードは、updated_by_m_account_type テーブルの特定の 1 件のレコードに属します（外部キーは t_production_reject 側にあります）。
+t_production_reject テーブルの 1 件のレコードは、created_by テーブルの特定の 1 件のレコードに属します（外部キーは t_production_reject 側にあります）。
+
+==== TPurchaseOrder.php ====
+t_purchase_order テーブルの 1 件のレコードは、m_part テーブルの特定の 1 件のレコードに属します（外部キーは t_purchase_order 側にあります）。
+t_purchase_order テーブルの 1 件のレコードは、m_supplier テーブルの特定の 1 件のレコードに属します（外部キーは t_purchase_order 側にあります）。
+t_purchase_order テーブルの 1 件のレコードは、t_estimate テーブルの特定の 1 件のレコードに属します（外部キーは t_purchase_order 側にあります）。
+t_purchase_order テーブルの 1 件のレコードは、m_tax_rate テーブルの特定の 1 件のレコードに属します（外部キーは t_purchase_order 側にあります）。
+t_purchase_order テーブルの 1 件のレコードは、m_purchase_order_status テーブルの特定の 1 件のレコードに属します（外部キーは t_purchase_order 側にあります）。
+t_purchase_order テーブルの 1 件のレコードは、m_employee テーブルの特定の 1 件のレコードに属します（外部キーは t_purchase_order 側にあります）。
+t_purchase_order テーブルの 1 件のレコードは、created_by_m_account_type テーブルの特定の 1 件のレコードに属します（外部キーは t_purchase_order 側にあります）。
+t_purchase_order テーブルの 1 件のレコードは、updated_by_m_account_type テーブルの特定の 1 件のレコードに属します（外部キーは t_purchase_order 側にあります）。
+t_purchase_order テーブルの 1 件のレコードは、allocation テーブルの 1 件のレコードを持ちます。
+t_purchase_order テーブルの 1 件のレコードは、t_purchase_order_details テーブルの複数のレコードを持つことができます。
+t_purchase_order テーブルの 1 件のレコードは、t_purchase_order_group テーブルの特定の 1 件のレコードに属します（外部キーは t_purchase_order 側にあります）。
+
+==== TPurchaseOrderDetail.php ====
+t_purchase_order_detail テーブルの 1 件のレコードは、t_purchase_order テーブルの特定の 1 件のレコードに属します（外部キーは t_purchase_order_detail 側にあります）。
+t_purchase_order_detail テーブルの 1 件のレコードは、m_purchase_order_status テーブルの特定の 1 件のレコードに属します（外部キーは t_purchase_order_detail 側にあります）。
+t_purchase_order_detail テーブルの 1 件のレコードは、m_part テーブルの特定の 1 件のレコードに属します（外部キーは t_purchase_order_detail 側にあります）。
+t_purchase_order_detail テーブルの 1 件のレコードは、m_tax_rate テーブルの特定の 1 件のレコードに属します（外部キーは t_purchase_order_detail 側にあります）。
+t_purchase_order_detail テーブルの 1 件のレコードは、m_employee テーブルの特定の 1 件のレコードに属します（外部キーは t_purchase_order_detail 側にあります）。
+t_purchase_order_detail テーブルの 1 件のレコードは、m_delivery_method テーブルの特定の 1 件のレコードに属します（外部キーは t_purchase_order_detail 側にあります）。
+t_purchase_order_detail テーブルの 1 件のレコードは、created_by_m_account_type テーブルの特定の 1 件のレコードに属します（外部キーは t_purchase_order_detail 側にあります）。
+t_purchase_order_detail テーブルの 1 件のレコードは、updated_by_m_account_type テーブルの特定の 1 件のレコードに属します（外部キーは t_purchase_order_detail 側にあります）。
+
+==== TPurchaseOrderGroup.php ====
+t_purchase_order_group テーブルの 1 件のレコードは、created_by_m_account_type テーブルの特定の 1 件のレコードに属します（外部キーは t_purchase_order_group 側にあります）。
+t_purchase_order_group テーブルの 1 件のレコードは、updated_by_m_account_type テーブルの特定の 1 件のレコードに属します（外部キーは t_purchase_order_group 側にあります）。
+t_purchase_order_group テーブルの 1 件のレコードは、t_purchase_orders テーブルの複数のレコードを持つことができます。
+
+==== TRackPartStock.php ====
+t_rack_part_stock テーブルの 1 件のレコードは、m_rack テーブルの特定の 1 件のレコードに属します（外部キーは t_rack_part_stock 側にあります）。
+t_rack_part_stock テーブルの 1 件のレコードは、m_part テーブルの特定の 1 件のレコードに属します（外部キーは t_rack_part_stock 側にあります）。
+t_rack_part_stock テーブルの 1 件のレコードは、created_by_m_account_type テーブルの特定の 1 件のレコードに属します（外部キーは t_rack_part_stock 側にあります）。
+t_rack_part_stock テーブルの 1 件のレコードは、updated_by_m_account_type テーブルの特定の 1 件のレコードに属します（外部キーは t_rack_part_stock 側にあります）。
+
+==== TRackPartStockHistory.php ====
+t_rack_part_stock_history テーブルの 1 件のレコードは、m_rack テーブルの特定の 1 件のレコードに属します（外部キーは t_rack_part_stock_history 側にあります）。
+t_rack_part_stock_history テーブルの 1 件のレコードは、m_part テーブルの特定の 1 件のレコードに属します（外部キーは t_rack_part_stock_history 側にあります）。
+t_rack_part_stock_history テーブルの 1 件のレコードは、m_stock_history_type テーブルの特定の 1 件のレコードに属します（外部キーは t_rack_part_stock_history 側にあります）。
+t_rack_part_stock_history テーブルの 1 件のレコードは、m_stock_change_reason テーブルの特定の 1 件のレコードに属します（外部キーは t_rack_part_stock_history 側にあります）。
+t_rack_part_stock_history テーブルの 1 件のレコードは、created_by_m_account_type テーブルの特定の 1 件のレコードに属します（外部キーは t_rack_part_stock_history 側にあります）。
+t_rack_part_stock_history テーブルの 1 件のレコードは、updated_by_m_account_type テーブルの特定の 1 件のレコードに属します（外部キーは t_rack_part_stock_history 側にあります）。
+t_rack_part_stock_history テーブルの 1 件のレコードは、checked_by テーブルの特定の 1 件のレコードに属します（外部キーは t_rack_part_stock_history 側にあります）。
+t_rack_part_stock_history テーブルの 1 件のレコードは、created_by テーブルの特定の 1 件のレコードに属します（外部キーは t_rack_part_stock_history 側にあります）。
+
+==== TSalesPriceHistory.php ====
+t_sales_price_history テーブルの 1 件のレコードは、m_part テーブルの特定の 1 件のレコードに属します（外部キーは t_sales_price_history 側にあります）。
+
+==== TShipping.php ====
+t_shipping テーブルの 1 件のレコードは、m_delivery_destination テーブルの特定の 1 件のレコードに属します（外部キーは t_shipping 側にあります）。
+t_shipping テーブルの 1 件のレコードは、ship_from_m_delivery_destination テーブルの特定の 1 件のレコードに属します（外部キーは t_shipping 側にあります）。
+t_shipping テーブルの 1 件のレコードは、created_by_m_account_type テーブルの特定の 1 件のレコードに属します（外部キーは t_shipping 側にあります）。
+t_shipping テーブルの 1 件のレコードは、updated_by_m_account_type テーブルの特定の 1 件のレコードに属します（外部キーは t_shipping 側にあります）。
+t_shipping テーブルの 1 件のレコードは、m_shipping_status テーブルの特定の 1 件のレコードに属します（外部キーは t_shipping 側にあります）。
+t_shipping テーブルの 1 件のレコードは、m_shipping_usage テーブルの特定の 1 件のレコードに属します（外部キーは t_shipping 側にあります）。
+t_shipping テーブルの 1 件のレコードは、m_transport_method_type テーブルの特定の 1 件のレコードに属します（外部キーは t_shipping 側にあります）。
+t_shipping テーブルの 1 件のレコードは、m_transport_company テーブルの特定の 1 件のレコードに属します（外部キーは t_shipping 側にあります）。
+t_shipping テーブルの 1 件のレコードは、m_employee テーブルの特定の 1 件のレコードに属します（外部キーは t_shipping 側にあります）。
+t_shipping テーブルの 1 件のレコードは、t_charter_truck_requests テーブルの複数のレコードを持つことができます。
+t_shipping テーブルの 1 件のレコードは、t_pickings テーブルの複数のレコードを持つことができます。
+t_shipping テーブルの 1 件のレコードは、t_shipping_details テーブルの複数のレコードを持つことができます。
+t_shipping テーブルの 1 件のレコードは、t_shipping_invoice_numbers テーブルの複数のレコードを持つことができます。
+t_shipping テーブルの 1 件のレコードは、t_shipping_other_items テーブルの複数のレコードを持つことができます。
+t_shipping テーブルの 1 件のレコードは、w_shippings テーブルの複数のレコードを持つことができます。
+t_shipping テーブルの 1 件のレコードは、t_order テーブルの特定の 1 件のレコードに属します（外部キーは t_shipping 側にあります）。
+
+==== TShippingDetail.php ====
+t_shipping_detail テーブルの 1 件のレコードは、t_shipping テーブルの特定の 1 件のレコードに属します（外部キーは t_shipping_detail 側にあります）。
+t_shipping_detail テーブルの 1 件のレコードは、t_order_detail テーブルの特定の 1 件のレコードに属します（外部キーは t_shipping_detail 側にあります）。
+t_shipping_detail テーブルの 1 件のレコードは、created_by_m_account_type テーブルの特定の 1 件のレコードに属します（外部キーは t_shipping_detail 側にあります）。
+t_shipping_detail テーブルの 1 件のレコードは、updated_by_m_account_type テーブルの特定の 1 件のレコードに属します（外部キーは t_shipping_detail 側にあります）。
+t_shipping_detail テーブルの 1 件のレコードは、m_part テーブルの特定の 1 件のレコードに属します（外部キーは t_shipping_detail 側にあります）。
+t_shipping_detail テーブルの 1 件のレコードは、m_production_number テーブルの特定の 1 件のレコードに属します（外部キーは t_shipping_detail 側にあります）。
+t_shipping_detail テーブルの 1 件のレコードは、allocation テーブルの 1 件のレコードを持ちます。
+
+==== TShippingInvoiceNumber.php ====
+t_shipping_invoice_number テーブルの 1 件のレコードは、t_shipping テーブルの特定の 1 件のレコードに属します（外部キーは t_shipping_invoice_number 側にあります）。
+t_shipping_invoice_number テーブルの 1 件のレコードは、created_by_m_account_type テーブルの特定の 1 件のレコードに属します（外部キーは t_shipping_invoice_number 側にあります）。
+t_shipping_invoice_number テーブルの 1 件のレコードは、updated_by_m_account_type テーブルの特定の 1 件のレコードに属します（外部キーは t_shipping_invoice_number 側にあります）。
+
+==== TShippingOtherItem.php ====
+t_shipping_other_item テーブルの 1 件のレコードは、t_shipping テーブルの特定の 1 件のレコードに属します（外部キーは t_shipping_other_item 側にあります）。
+t_shipping_other_item テーブルの 1 件のレコードは、created_by_m_account_type テーブルの特定の 1 件のレコードに属します（外部キーは t_shipping_other_item 側にあります）。
+t_shipping_other_item テーブルの 1 件のレコードは、updated_by_m_account_type テーブルの特定の 1 件のレコードに属します（外部キーは t_shipping_other_item 側にあります）。
+
+==== TShippingPickingPart.php ====
+t_shipping_picking_part テーブルの 1 件のレコードは、t_picking テーブルの特定の 1 件のレコードに属します（外部キーは t_shipping_picking_part 側にあります）。
+t_shipping_picking_part テーブルの 1 件のレコードは、m_production_number テーブルの特定の 1 件のレコードに属します（外部キーは t_shipping_picking_part 側にあります）。
+t_shipping_picking_part テーブルの 1 件のレコードは、m_part テーブルの特定の 1 件のレコードに属します（外部キーは t_shipping_picking_part 側にあります）。
+t_shipping_picking_part テーブルの 1 件のレコードは、m_picking_status テーブルの特定の 1 件のレコードに属します（外部キーは t_shipping_picking_part 側にあります）。
+t_shipping_picking_part テーブルの 1 件のレコードは、created_by_m_account_type テーブルの特定の 1 件のレコードに属します（外部キーは t_shipping_picking_part 側にあります）。
+t_shipping_picking_part テーブルの 1 件のレコードは、updated_by_m_account_type テーブルの特定の 1 件のレコードに属します（外部キーは t_shipping_picking_part 側にあります）。
+t_shipping_picking_part テーブルの 1 件のレコードは、t_picking_boxes テーブルの複数のレコードと多対多の関係を持ちます（中間テーブルを介します）。
+t_shipping_picking_part テーブルの 1 件のレコードは、t_shipping_picking_part_records テーブルの複数のレコードを持つことができます。
+
+==== TShippingPickingPartRecord.php ====
+t_shipping_picking_part_record テーブルの 1 件のレコードは、t_shipping_picking_part テーブルの特定の 1 件のレコードに属します（外部キーは t_shipping_picking_part_record 側にあります）。
+t_shipping_picking_part_record テーブルの 1 件のレコードは、m_rack テーブルの特定の 1 件のレコードに属します（外部キーは t_shipping_picking_part_record 側にあります）。
+t_shipping_picking_part_record テーブルの 1 件のレコードは、created_by_m_account_type テーブルの特定の 1 件のレコードに属します（外部キーは t_shipping_picking_part_record 側にあります）。
+t_shipping_picking_part_record テーブルの 1 件のレコードは、updated_by_m_account_type テーブルの特定の 1 件のレコードに属します（外部キーは t_shipping_picking_part_record 側にあります）。
+t_shipping_picking_part_record テーブルの 1 件のレコードは、created_by_m_employee テーブルの特定の 1 件のレコードに属します（外部キーは t_shipping_picking_part_record 側にあります）。
+
+==== TStandardStockUnitPriceHistory.php ====
+t_standard_stock_unit_price_history テーブルの 1 件のレコードは、m_part テーブルの特定の 1 件のレコードに属します（外部キーは t_standard_stock_unit_price_history 側にあります）。
+
+==== WArrival.php ====
+w_arrival テーブルの 1 件のレコードは、m_part テーブルの特定の 1 件のレコードに属します（外部キーは w_arrival 側にあります）。
+w_arrival テーブルの 1 件のレコードは、m_rack テーブルの特定の 1 件のレコードに属します（外部キーは w_arrival 側にあります）。
+
+==== WProduction.php ====
+w_production テーブルの 1 件のレコードは、t_production_process_order_group テーブルの特定の 1 件のレコードに属します（外部キーは w_production 側にあります）。
+
+==== WProductionPicking.php ====
+w_production_picking テーブルの 1 件のレコードは、t_production_process_group テーブルの特定の 1 件のレコードに属します（外部キーは w_production_picking 側にあります）。
+w_production_picking テーブルの 1 件のレコードは、m_part テーブルの特定の 1 件のレコードに属します（外部キーは w_production_picking 側にあります）。
+w_production_picking テーブルの 1 件のレコードは、m_rack テーブルの特定の 1 件のレコードに属します（外部キーは w_production_picking 側にあります）。
+
+==== WShipping.php ====
+w_shipping テーブルの 1 件のレコードは、t_shipping テーブルの特定の 1 件のレコードに属します（外部キーは w_shipping 側にあります）。
+
+==== WShippingPicking.php ====
+w_shipping_picking テーブルの 1 件のレコードは、m_rack テーブルの特定の 1 件のレコードに属します（外部キーは w_shipping_picking 側にあります）。
+w_shipping_picking テーブルの 1 件のレコードは、m_part テーブルの特定の 1 件のレコードに属します（外部キーは w_shipping_picking 側にあります）。
+
