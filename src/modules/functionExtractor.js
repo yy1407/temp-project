@@ -1,8 +1,10 @@
 /**
- * PHPソースコードから、関数ごとに関数名と関数内のリレーションメソッド呼び出しを抽出する
+ * Laravel の Model クラスの PHP ソースコードから、関数ごとに関数名と関数内のリレーションメソッド呼び出しを抽出する
  *
- * @param {string} phpCode PHPソースコード文字列
- * @returns {Array<{name: string, relations: string[]}>} 関数名と、その関数内のリレーションメソッドを格納した配列
+ * リレーションメソッド：hasOne(), hasMany(), belongsTo(), belongsToMany()
+ *
+ * @param {string} phpCode Model クラスの PHP ソースコード文字列
+ * @returns {Array<{functionName: string, relationType: string}>} 関数名と、その関数内のリレーションメソッドを格納した配列
  */
 function extractFunctionsWithRelations(phpCode) {
   const funcNameRegex = /function\s+([a-zA-Z0-9_]+)\s*\([^)]*\)\s*\{/g;
