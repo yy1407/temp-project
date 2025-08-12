@@ -1,0 +1,24 @@
+{
+  "name": "temp-project",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yy1407/temp-project.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yy1407/temp-project/issues"
+  },
+  "homepage": "https://github.com/yy1407/temp-project#readme",
+  "description": "",
+  "devDependencies": {
+    "prettier": "^3.6.2"
+  }
+}
